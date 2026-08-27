@@ -1,23 +1,27 @@
 # Peppermodern-internal: refresh the repo copy from the live production library.
-# Reads P: only (never writes there). Applies the PW -> PM rename, reports the
-# diff, and stages changes in the working tree for review before any commit.
+# Reads P: only (never writes there). Reports the diff, and stages changes in
+# the working tree for review before any commit.
+#
+# Production folder was renamed PW -> PM on 2026-08-27, so paths now match the
+# repo. Individual production .moz files may still carry the legacy
+# SourceLib="PW Fixtures and Appliances" inside (Mozaik rewrites it per product
+# on its next save) — the normalization below maps those to PM and is a no-op
+# for files Mozaik has already rewritten.
 #
 # Usage: powershell -File tools\sync-from-production.ps1
 
 $ErrorActionPreference = 'Stop'
-$src  = 'P:\Shared drives\Mozaik\Product Libraries\PW Fixtures and Appliances'
+$src  = 'P:\Shared drives\Mozaik\Product Libraries\PM Fixtures and Appliances'
 $repo = Split-Path $PSScriptRoot -Parent
 $dest = Join-Path $repo 'Product Libraries\PM Fixtures and Appliances'
 
 if (-not (Test-Path $src))  { throw "Production library not found: $src" }
 if (-not (Test-Path $dest)) { throw "Repo library not found: $dest" }
 
-# Stage into a temp copy first so the rename never touches production bytes.
+# Stage into a temp copy first so the normalization never touches production bytes.
 $tmp = Join-Path $env:TEMP ("pm-lib-sync-" + (Get-Date -Format yyMMdd-HHmmss))
 robocopy $src $tmp /E /XF *.LCK /NFL /NDL /NJH /NJS | Out-Null
 
-$old = [byte[]][char[]]'SourceLib="PW Fixtures and Appliances"'
-$new = [byte[]][char[]]'SourceLib="PM Fixtures and Appliances"'
 Get-ChildItem "$tmp\Products" -Filter *.moz | ForEach-Object {
     $text = [IO.File]::ReadAllText($_.FullName)
     $patched = $text.Replace('SourceLib="PW Fixtures and Appliances"', 'SourceLib="PM Fixtures and Appliances"')
@@ -26,7 +30,7 @@ Get-ChildItem "$tmp\Products" -Filter *.moz | ForEach-Object {
     }
 }
 
-# Diff report: temp (renamed production) vs repo copy.
+# Diff report: temp (normalized production) vs repo copy.
 $changes = @(); $adds = @(); $dels = @()
 $tmpFiles  = Get-ChildItem $tmp -Recurse -File
 $destFiles = Get-ChildItem $dest -Recurse -File
@@ -55,5 +59,6 @@ if ($adds.Count + $changes.Count + $dels.Count -eq 0) {
     Write-Host ''
     Write-Host 'Applied to the working tree. Review with git diff / git status, update'
     Write-Host 'MANIFEST.md + CHANGELOG.md, run python tools\validate.py, then commit.'
+    Write-Host 'Tagging vX.Y.Z and pushing the tag builds the release zip automatically.'
 }
 Remove-Item $tmp -Recurse -Force

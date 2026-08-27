@@ -1,0 +1,32 @@
+# Pushing a v* tag validates the library, packages the library-only zip from
+# the tagged tree, and publishes the GitHub release with the zip attached —
+# the asset can never drift from the tag. (v1.0.0 was packaged by hand; this
+# workflow owns v1.1.0 onward.)
+name: release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate library
+        run: python tools/validate.py
+      - name: Package library zip
+        run: |
+          cd "Product Libraries"
+          zip -rq "$GITHUB_WORKSPACE/PM-Fixtures-and-Appliances-${GITHUB_REF_NAME}.zip" "PM Fixtures and Appliances"
+      - name: Publish release with asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            "PM-Fixtures-and-Appliances-${GITHUB_REF_NAME}.zip" \
+            --title "$GITHUB_REF_NAME" \
+            --generate-notes
