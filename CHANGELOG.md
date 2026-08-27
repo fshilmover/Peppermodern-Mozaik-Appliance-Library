@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.1.0 — 2026-08-27
+
+Spec sheets for submittals, plus a face for the repo.
+
+- `specs/` — the manufacturer's spec sheet for every product, named to match it
+  (plus flush-inset variant sheets for the three Wolf ovens). Per-file source and
+  verification status in `specs/SOURCES.md`; every file passed the gauntlet
+  (real PDF + exact model coverage; the two Lynx CAD drawings verified visually
+  and byte-identical to the shop's build-validated copies).
+- Validator now requires a spec PDF per product.
+- README: 3D collage of ten models sampled across the categories.
+- Release zips are now built by CI from the tag (v1.0.0's was packaged by hand).
+
 ## v1.0.0 — 2026-08-27
 
 Initial public release.

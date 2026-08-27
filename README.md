@@ -11,10 +11,17 @@ Outdoor Cooking · Sinks · Faucets · Showers · Tubs
 **Brands:** AmeriSink, Best, Brizo, Fulgor, GE Monogram, Kohler, Lynx, Pfister, Ruvati,
 Samsung, Sub-Zero, Wolf
 
+![A sampling of the library's 3D models — ovens, refrigeration, dishwasher, hood, rangetop, grill, sink, faucet, tub](docs/images/library-collage.png)
+
 Every product carries the width, height, and depth printed on the manufacturer's spec sheet
 and cannot be stretched — place a 30" wall oven and it stays a 30" wall oven. Each shows as a
 3D model in plans, elevations, and renders. The full product list with dimensions is in
 [MANIFEST.md](MANIFEST.md).
+
+**Spec sheets included.** [specs/](specs/) holds the manufacturer's spec sheet for every
+product, named to match it (`Wolf CSO24TE Steam Oven.pdf` beside the model you just placed),
+ready to drop into a submittal's product-data section. Each file's source and verification
+note is in [specs/SOURCES.md](specs/SOURCES.md).
 
 > **Never used GitHub?** You don't need an account. Click the green **Code** button above →
 > **Download ZIP**, or follow the [install guide](https://fshilmover.github.io/Peppermodern-Mozaik-Appliance-Library/install-guide.html) —

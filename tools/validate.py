@@ -100,10 +100,23 @@ for name in prod_nodes:
     if not (LIB / "Products" / f"{name}.moz").is_file():
         err(f"ndx node '{name}' has no matching .moz file")
 
+# --- spec sheets: every product ships one, named to match ---
+SPECS = ROOT / "specs"
+spec_count = 0
+for moz in moz_files:
+    pdf = SPECS / f"{moz.stem}.pdf"
+    if not pdf.is_file():
+        err(f"specs/{moz.stem}.pdf missing — every product ships a verified spec sheet")
+        continue
+    spec_count += 1
+    if not pdf.read_bytes()[:4] == b"%PDF":
+        err(f"specs/{moz.stem}.pdf is not a PDF")
+
 if errors:
     print(f"FAIL — {len(errors)} problem(s):")
     for e in errors:
         print(f"  - {e}")
     sys.exit(1)
 print(f"PASS — {len(moz_files)} products, {len(folders)} categories, "
-      f"all name bindings, models, and flags verified in '{LIBNAME}'")
+      f"{spec_count} spec sheets, all name bindings, models, and flags "
+      f"verified in '{LIBNAME}'")
