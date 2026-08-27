@@ -1,0 +1,6 @@
+# Mozaik's files are byte-exact formats (CRLF, no BOM, integer header lines).
+# Never let git normalize line endings on anything in this repo.
+* -text
+*.skp binary
+*.png binary
+*.jpg binary

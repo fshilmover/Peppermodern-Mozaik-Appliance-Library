@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Install Guide — Peppermodern Mozaik Appliance Library</title>
+<meta name="description" content="How to install the free Peppermodern appliance and fixture library into Mozaik — whole library or single products.">
+<style>
+  :root{
+    --paper:#f3efe5; --surface:#fffdf8; --surface-2:#e7e0d1;
+    --ink:#171a1c; --muted:#68665f; --rule:#c8c0b1;
+    --blue:#1558d6; --blue-dark:#0d3e9d; --blue-pale:#dbe5f7;
+    --btn-ink:#fffdf8;
+    --sans:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --mono:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#1f2123; --surface:#26282b; --surface-2:#2c2f32;
+      --ink:#e9e4d8; --muted:#9a968b; --rule:#3d4043;
+      --blue:#7ba1f5; --blue-dark:#a9c2fa; --blue-pale:#2a3a5c;
+      --btn-ink:#14161a;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#1f2123; --surface:#26282b; --surface-2:#2c2f32;
+    --ink:#e9e4d8; --muted:#9a968b; --rule:#3d4043;
+    --blue:#7ba1f5; --blue-dark:#a9c2fa; --blue-pale:#2a3a5c;
+    --btn-ink:#14161a;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);
+       font-size:16px;line-height:1.55;margin:0}
+  .page{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+  header.masthead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+       flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:40px}
+  .wordmark{font-weight:700;font-size:20px;letter-spacing:-.03em}
+  .wordmark a{color:var(--ink);text-decoration:none}
+  .mast-tag{font-family:var(--mono);font-size:13px;letter-spacing:.14em;color:var(--blue)}
+  h1{font-size:32px;line-height:1.15;letter-spacing:-.02em;margin:0 0 14px;text-wrap:balance}
+  .lede{font-size:17.5px;margin:0 0 6px;max-width:62ch}
+  .lede-sub{color:var(--muted);margin:0;max-width:62ch}
+  .kicker{font-family:var(--mono);font-size:13px;letter-spacing:.14em;color:var(--blue);
+     text-transform:uppercase;margin:44px 0 10px;padding-top:22px;border-top:1px solid var(--rule)}
+  p{margin:0 0 12px;max-width:66ch}
+  a{color:var(--blue);text-decoration-thickness:1px;text-underline-offset:2px}
+  a:hover{color:var(--blue-dark)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  code,.path{font-family:var(--mono);font-size:14px;background:var(--surface-2);
+     padding:1px 5px;border-radius:2px;word-break:break-word}
+  ol.steps{margin:0 0 12px;padding-left:0;list-style:none;counter-reset:step}
+  ol.steps>li{counter-increment:step;position:relative;padding:0 0 14px 44px;max-width:66ch}
+  ol.steps>li::before{content:counter(step);position:absolute;left:0;top:1px;
+     width:26px;height:26px;border:1.5px solid var(--blue);border-radius:50%;
+     display:flex;align-items:center;justify-content:center;
+     font-family:var(--mono);font-size:13px;color:var(--blue)}
+  .btn{display:inline-block;background:var(--blue);color:var(--btn-ink);font-weight:700;
+     text-decoration:none;padding:10px 20px;border-radius:3px;font-size:15px}
+  .btn:hover{background:var(--blue-dark);color:var(--btn-ink)}
+  .getrow{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:4px 0 14px}
+  .getrow .alt{font-family:var(--mono);font-size:13px;color:var(--muted)}
+  .callout{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--blue);
+     border-radius:3px;padding:14px 18px;margin:14px 0;max-width:66ch}
+  .callout .t{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--blue);margin-bottom:6px}
+  .callout p{margin:0 0 8px}
+  .callout p:last-child{margin:0}
+  .promptbox{background:var(--surface);border:1px solid var(--rule);border-radius:3px;
+     padding:16px 18px;margin:14px 0}
+  .promptbox .head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}
+  .promptbox .head .t{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--muted)}
+  .promptbox pre{margin:0;font-family:var(--mono);font-size:13.5px;line-height:1.5;
+     white-space:pre-wrap;word-break:break-word;color:var(--ink)}
+  .copybtn{font-family:var(--mono);font-size:12px;color:var(--blue);background:none;
+     border:1px solid var(--blue);border-radius:3px;padding:4px 10px;cursor:pointer}
+  .copybtn:hover{background:var(--blue-pale)}
+  .filetree{font-family:var(--mono);font-size:13.5px;line-height:1.6;background:var(--surface);
+     border:1px solid var(--rule);border-radius:3px;padding:14px 18px;margin:12px 0;
+     overflow-x:auto;white-space:pre}
+  table.tr{border-collapse:collapse;width:100%;margin:12px 0;font-size:15px}
+  table.tr th{font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--muted);
+     text-align:left;font-weight:400;border-bottom:1.5px solid var(--ink);padding:6px 14px 6px 0}
+  table.tr td{border-bottom:1px solid var(--rule);padding:9px 14px 9px 0;vertical-align:top}
+  .tablewrap{overflow-x:auto}
+  footer{margin-top:56px;border-top:2px solid var(--ink);padding-top:14px;
+     display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  footer .fm{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+  footer .fm a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <div class="wordmark"><a href="https://peppermodern.com/resources">PEPPERMODERN</a></div>
+    <div class="mast-tag">MOZAIK LIBRARY · INSTALL GUIDE</div>
+  </header>
+
+  <h1>Installing the appliance &amp; fixture library</h1>
+  <p class="lede">One folder holds the whole library — 36 products with their category tree,
+  spec-sheet dimensions, and 3D models. Installing it is a copy and a restart.</p>
+  <p class="lede-sub">Nothing here touches your existing libraries. You can also pull single
+  products into a library you already have — that's covered below.</p>
+
+  <section>
+    <div class="kicker">01 · What you're installing</div>
+    <p>A Mozaik product library is a folder. This one looks like this:</p>
+    <div class="filetree">PM Fixtures and Appliances\
+├── Library.ndx          the category tree Mozaik shows in the browser
+├── parameters.dat       standard library parameters
+└── Products\
+    ├── Wolf CSO24TE Steam Oven.moz    the product (dimensions, settings)
+    ├── Wolf CSO24TE Steam Oven.skp    its 3D model — always beside its .moz
+    └── … 35 more pairs</div>
+    <p>Every product is fixed-size: the width, height, and depth from the manufacturer's spec
+    sheet are stored in the file and can't be stretched in a job. There is nothing to
+    configure after installing.</p>
+  </section>
+
+  <section>
+    <div class="kicker">02 · Get the files</div>
+    <div class="getrow">
+      <a class="btn" href="https://github.com/fshilmover/Peppermodern-Mozaik-Appliance-Library/releases/latest">Download the latest release</a>
+      <span class="alt">zip — no GitHub account needed</span>
+    </div>
+    <p>Two other ways to the same files: on the
+    <a href="https://github.com/fshilmover/Peppermodern-Mozaik-Appliance-Library">repository page</a>,
+    the green <strong>Code</strong> button → <strong>Download ZIP</strong>; or, if you use git,
+    <code>git clone</code> the repository and <code>git pull</code> whenever you want updates.</p>
+    <div class="promptbox">
+      <div class="head">
+        <span class="t">NEVER USED GITHUB? PASTE THIS INTO CLAUDE (CLAUDE.AI)</span>
+        <button class="copybtn" type="button" onclick="copyPrompt(this)">Copy</button>
+      </div>
+      <pre id="claudeprompt">I want to install a free appliance library into Mozaik cabinet software. It's on GitHub here: https://github.com/fshilmover/Peppermodern-Mozaik-Appliance-Library — I've never used GitHub. Walk me through downloading it and copying the library folder into my Mozaik Product Libraries folder, one step at a time, and wait for me to confirm each step.</pre>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">03 · Install the whole library</div>
+    <ol class="steps">
+      <li>Unzip the download somewhere convenient and find the folder
+      <span class="path">PM Fixtures and Appliances</span> (in the release zip it's at the top;
+      in the repo zip it's inside <span class="path">Product Libraries</span>).</li>
+      <li>Close Mozaik.</li>
+      <li>Find your Mozaik <span class="path">Product Libraries</span> folder. On a default
+      install that's <span class="path">C:\Mozaik\Product Libraries</span> — it's the folder
+      that already contains libraries like <span class="path">Appliances V12</span>. If your
+      shop keeps Mozaik data somewhere else, it's wherever those library folders live.</li>
+      <li>Copy <span class="path">PM Fixtures and Appliances</span> into it — the whole
+      folder, not just its contents.</li>
+      <li>Open Mozaik. Under <strong>Libraries → Products</strong> you'll see
+      <strong>PM Fixtures and Appliances</strong> with its categories: Sinks, Ovens,
+      Refrigeration, Faucets, and the rest. Mozaik finds libraries by scanning that folder at
+      startup, so the restart is what makes it appear.</li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="kicker">04 · Verify it</div>
+    <p>Place <strong>Wolf CSO24TE Steam Oven</strong> (under Ovens) in a scratch job and check
+    three things:</p>
+    <ol class="steps">
+      <li>It faces the room and looks like a steam oven — control band with knobs on top,
+      tubular handle across the door, nothing squashed.</li>
+      <li>Its dimensions read 597 × 454 × 582&nbsp;mm (23-1/2" × 17-7/8" × 22-15/16") and
+      won't stretch.</li>
+      <li>It shows up in plan, elevation, and 3D.</li>
+    </ol>
+    <p>If all three pass, the library is installed correctly — every product works the same
+    way.</p>
+  </section>
+
+  <section>
+    <div class="kicker">05 · Single products into your own library</div>
+    <p>You don't have to adopt the whole library. To pull one product into a library you
+    already have:</p>
+    <ol class="steps">
+      <li>Copy the product's <span class="path">.moz</span> <strong>and</strong> its matching
+      <span class="path">.skp</span> from our <span class="path">Products</span> folder into
+      your library's <span class="path">Products</span> folder. The two files stay together —
+      the .moz refers to the .skp by name.</li>
+      <li>In Mozaik, open your library under <strong>Libraries → Products</strong>.</li>
+      <li>Right-click the category you want it in → <strong>Add</strong> → type
+      <strong>exactly the same name as the .moz file</strong>, without the extension.
+      Mozaik connects the name to the file and its model.</li>
+    </ol>
+    <div class="callout">
+      <div class="t">THE NAME IS THE LINK</div>
+      <p>Mozaik binds the browser entry to the file by name. <em>Wolf CSO24TE Steam Oven</em>
+      typed exactly connects to <span class="path">Wolf CSO24TE Steam Oven.moz</span>; any
+      difference creates a new blank product instead. This is Mozaik's own documented
+      mechanism — see
+      <a href="https://mozaik.support.cyncly.com/hc/en-us/articles/40831678424465-Copying-Products-to-Different-Library">Copying
+      Products to Different Library</a> in the Mozaik knowledge base.</p>
+      <p>No dimensions or settings to enter during any of this — everything rides in the
+      .moz.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">06 · Updating</div>
+    <p>Download the newest release and replace your
+    <span class="path">PM Fixtures and Appliances</span> folder (Mozaik closed, same as the
+    install). One caution: replacing the folder discards anything you added <em>inside</em>
+    it — keep your own products in your own libraries and cherry-pick ours, and updates stay
+    a clean swap.</p>
+  </section>
+
+  <section>
+    <div class="kicker">07 · If something looks wrong</div>
+    <div class="tablewrap">
+    <table class="tr">
+      <tr><th>Symptom</th><th>Cause and fix</th></tr>
+      <tr><td>Library doesn't appear</td>
+          <td>Mozaik scans for libraries at startup — close and reopen it. Then check the
+          folder landed inside <span class="path">Product Libraries</span> itself, not nested
+          one level deeper.</td></tr>
+      <tr><td>Product added to your own library shows as a blank box</td>
+          <td>The typed name doesn't exactly match the .moz filename. Delete the entry and
+          re-add with the exact name.</td></tr>
+      <tr><td>Product places but has no 3D model</td>
+          <td>The .skp isn't beside its .moz. Copy both files into the same
+          <span class="path">Products</span> folder.</td></tr>
+      <tr><td>Anything else</td>
+          <td><a href="https://github.com/fshilmover/Peppermodern-Mozaik-Appliance-Library/issues">Open
+          an issue</a> with your Mozaik version and what you saw.</td></tr>
+    </table>
+    </div>
+  </section>
+
+  <footer>
+    <span class="fm"><a href="https://peppermodern.com/resources">peppermodern.com/resources</a></span>
+    <span class="fm"><a href="https://github.com/fshilmover/Peppermodern-Mozaik-Appliance-Library">github.com/fshilmover/Peppermodern-Mozaik-Appliance-Library</a></span>
+  </footer>
+</div>
+<script>
+function copyPrompt(btn){
+  var text = document.getElementById('claudeprompt').textContent;
+  try{
+    navigator.clipboard.writeText(text).then(function(){
+      btn.textContent = 'Copied';
+      setTimeout(function(){ btn.textContent = 'Copy'; }, 1600);
+    }, function(){ fallbackSelect(); });
+  }catch(e){ fallbackSelect(); }
+  function fallbackSelect(){
+    var r = document.createRange();
+    r.selectNodeContents(document.getElementById('claudeprompt'));
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    btn.textContent = 'Select + Ctrl-C';
+  }
+}
+</script>
+</body>
+</html>

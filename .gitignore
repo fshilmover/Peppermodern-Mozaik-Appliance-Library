@@ -1,0 +1,6 @@
+# Mozaik lock files — transient, never ship
+*.LCK
+
+# OS noise
+Thumbs.db
+.DS_Store
