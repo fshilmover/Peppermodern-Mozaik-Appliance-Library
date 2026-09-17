@@ -47,4 +47,6 @@
   <Node Name="SubZero DEC3650RIDL Fridge 36" ID="133" ParentID="13" IsFolder="False" Expanded="False" />
   <Node Name="GE Monogram ZTDX1FPSNSS Double Oven" ID="134" ParentID="12" IsFolder="False" Expanded="False" />
   <Node Name="Wolf CSO24TE Steam Oven" ID="135" ParentID="12" IsFolder="False" Expanded="False" />
+  <Node Name="Miele H 7580 BP Wall Oven 30" ID="136" ParentID="12" IsFolder="False" Expanded="False" />
+  <Node Name="Miele DA 6891 Downdraft 36" ID="137" ParentID="14" IsFolder="False" Expanded="False" />
 </ProductLibrary>

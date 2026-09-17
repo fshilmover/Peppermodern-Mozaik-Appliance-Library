@@ -1,9 +1,12 @@
 # Product Manifest
 
-36 products, 10 categories, 12 brands.
+38 products, 10 categories, 13 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
-taken from the manufacturer's spec sheet (Mozaik displays them in your job's units).
+taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
+model's measured envelope, checked against every published overall dimension (deltas,
+all within a couple of millimetres, are listed in the changelog). Mozaik displays them in
+your job's units and scales the model to these numbers.
 All products are fixed-size (`WStretch/HStretch/DStretch = False`) and carry a SketchUp
 model (`UseSUModel=1`).
 
@@ -27,10 +30,12 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Pfister GT72-TNTBG Tenet | Faucets | 119.06 × 304.8 × 180.66 | authored from spec (SketchUp script) | ✓ |
 | Pfister LG42-PFM0BG Pfirst Modern | Faucets | 42.86 × 144.46 × 163.51 | authored from spec (SketchUp script) | ✓ |
 | Best HBC163ESS Ceiling Hood 63 | Hoods | 1612.9 × 309.56 × 700.09 | authored from spec (SketchUp script) | ✓ |
+| Miele DA 6891 Downdraft 36 | Hoods | 914 × 683.9 × 361.4 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ (+ flush mount) |
 | Lynx L30AGSS Asado Cooktop | Outdoor Cooking | 762 × 342.9 × 708.02 | authored from spec (SketchUp script) | ✓ |
 | Lynx L36TR Grill 36 | Outdoor Cooking | 914.4 × 628.65 × 644.52 | authored from spec (SketchUp script) | ✓ |
 | Lynx LPB Power Burner | Outdoor Cooking | 508 × 282.58 × 658.81 | authored from spec (SketchUp script) | ✓ |
 | GE Monogram ZTDX1FPSNSS Double Oven | Ovens | 755.65 × 1300.16 × 706.44 | authored from spec (SketchUp script) | ✓ |
+| Miele H 7580 BP Wall Oven 30 | Ovens | 757 × 727 × 688 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ |
 | Wolf CSO24TE Steam Oven | Ovens | 597 × 454 × 582 | manufacturer model (subzero-wolf.com), used unmodified | ✓ (+ flush inset) |
 | Wolf CSO3050PE Steam Oven | Ovens | 758.6 × 446.9 × 605.4 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
 | Wolf SO3050PE Wall Oven | Ovens | 759 × 708 × 650 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
