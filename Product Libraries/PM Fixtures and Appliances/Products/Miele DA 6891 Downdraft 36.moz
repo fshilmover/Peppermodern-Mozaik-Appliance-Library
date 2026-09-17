@@ -1,0 +1,24 @@
+2
+11
+Mozaik Product Properties File
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Product UniqueID="26199203" OrderID="0" ProdName="Miele DA 6891 Downdraft 36" IDTag="0" ProductDesc="" SourceLib="PM Fixtures and Appliances" NonGraphic="False" ImageFile="" SketchUpFile="Miele DA 6891 Downdraft 36.skp" UseSUModel="1" AutoFill="False" AutoDimension="True" Mirror="True" SUDirty="False" OrderDirty="False" Width="914" Height="683.9" Depth="361.4" WStretch="False" HStretch="False" DStretch="False" minW="0" minH="0" minD="0" MaxW="0" MaxH="0" MaxD="0" ModularWidths="False" ModularHeights="False" ModularDepths="False" ModularFFHeights="False" X="0" Elev="908.05" Rot="0" Outset="0" Wall="0" CabNo="0" Numbered="False" SnapTo="0" IsRectShape="True" DoorOR="" TopDrwOR="" MidDrwOR="" BotDrwOR="" DrwPullOR="" DoorPullOR="" HingeOR="" GuideOR="" GuideORSlowCloseOn="False" GuideORSpacerState="0" ShelfPinsOR="" DrawerFrontFastenerOR="" LockOR="" LegOR="" SpotLightOR="" LinearLightOR="" EndDoorOR="" BackDoorOR="" HardwareTextureORId="-1" LToeAdj="0" RToeAdj="0" TopDepthAdj="0" BottomDepthAdj="0" CurrentConst="1" ShowElevDepth="False" ExtEnds="0" Flags="1111111111111111" NoParts="False" DoorStyle="" FinInt="False" AutomateInterior="False" GrainMatched="0" ScribeRefWasExterior="True" PrevInteriorScribeStileWidths="" PrevInteriorScribeSideThicknesses="" Count="1" LockConst="False" EndsToFloor="0" CornerVoidAssigned="False" Notes="" Price="0" PricePerM="0" PricePerSqM="0" Upcharge="0" Weight="0" IncludeInCabCount="True" IncludeInLinearCalculations="True" IncludeInSqCalculations="True" PricingColumn="" NotchForLeftPanelEndFrontToe="True" NotchForLeftPanelEndBackToe="True" NotchForRightPanelEndFrontToe="True" NotchForRightPanelEndBackToe="True" NotchForLeftEndFrontToe="True" NotchForLeftEndBackToe="False" NotchForRightEndFrontToe="True" NotchForRightEndBackToe="False" ParmVersion="17">
+  <ProductOptions />
+  <CabProdParts />
+  <CabProdParms />
+  <CustomParmEnabledORs />
+  <ProductDoors />
+  <ProductDrawers />
+  <ProductRolloutShelves />
+  <JointFastenerCounts />
+  <ShelfPinCounts />
+  <ProductMoldings />
+  <ProductInterior MaxIntSecID="1" DelT="False" DelB="False" DelL="False" DelR="False" />
+  <FrontFace MaxSecID="0" />
+  <LeftFace MaxSecID="0" />
+  <RightFace MaxSecID="0" />
+  <BackFace MaxSecID="0" />
+  <TopShapeXml Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False" />
+  <ProductType Type="7" SubType="9" SubSubType="1" />
+  <LabelDimensionOverrideMap />
+</Product>

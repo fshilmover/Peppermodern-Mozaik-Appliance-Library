@@ -1,7 +1,7 @@
 # Spec sheet sources
 
 One row per PDF in this folder. Every file passed the verification gauntlet on
-2026-08-27: real `%PDF` header and the exact model string found in the extracted
+2026-08-27 (Miele rows: 2026-09-17): real `%PDF` header and the exact model string found in the extracted
 text — except the two Lynx CAD drawings (no text layer), which were verified
 visually and are byte-identical to the copies the shop already build-validated.
 "Shop archive" files were collected from Peppermodern's own job records, where
@@ -31,6 +31,9 @@ removed on request ([open an issue](../../../issues)).
 | Lynx L30AGSS Asado Cooktop.pdf | verified (visual + MD5 vs shop copy) | lynxgrills.com CDN (du2gj1v5rko5e.cloudfront.net/file/56) | official dimensions drawing (Lynx canonical file LYNX_L30AG_ASADO_BUILT-IN.pdf); no per-model spec-sheet PDF exists; model binds via Lynx's own filename/page label; vector CAD, verified visually + byte-identical (MD5) to the shop's build-validated copy |
 | Lynx L36TR Grill 36.pdf | verified (model-exact) | lynxgrills.com CDN (du2gj1v5rko5e.cloudfront.net/file/13246) | official product spec sheet, prints (L36TR); covers L36TR-LP/NG |
 | Lynx LPB Power Burner.pdf | verified (visual + MD5 vs shop copy) | lynxgrills.com CDN (du2gj1v5rko5e.cloudfront.net/file/653) | official dimensions drawing, prints LYNX POWER BURNER LPB; vector CAD (no text layer), verified visually + byte-identical (MD5) to the shop's build-validated copy |
+| Miele DA 6891 Downdraft 36.pdf | verified (model-exact) | https://media.miele.com/downloads/n-/us/FS_10595910_USE_US-en-US.pdf | Miele US product sheet for material no. 10595910; p. 3 carries the dimensioned installation drawings (appliance dai3801, cabinet dai3800, stepped cut-out); matched 'DA 6891' in extracted text |
+| Miele DA 6891 Downdraft 36 (flush mount).pdf | verified (model-exact) | https://ca.miele.ca/MieleMedia//docs//operatinginstructions/en-CA///All%20Spec%20Sheets/Spec%20Sheets%20-%20English/Ventilation/DA6891_Flush_Installation.en-CA.pdf | Miele Canada flush-mounting sheet — sole source of the tabulated SPECIFICATIONS block (unit heights, opening sizes, ducts, electrical) and the stepped stone cut-out; matched 'DA 6891' in extracted text |
+| Miele H 7580 BP Wall Oven 30.pdf | verified (model-exact) | https://media.miele.com/downloads/n-/us/FS_11805540_USE_US-en-US.pdf | Miele US product sheet for material no. 11805540 (EDST/CLST), PDF title "H7580BP USA EDST/CLST 120/240/60"; proud + flush-inset installation drawings on p. 4; matched 'H 7580 BP' in extracted text |
 | Pfister GT529-BIB Brislin.pdf | verified (model-exact) | shop archive; Pfister spec submittal (pfisterstorage blob) | matched 'GT529-BIB' in extracted text |
 | Pfister GT72-TNTBG Tenet.pdf | verified (model-exact) | shop archive; Pfister spec submittal (pfisterstorage blob), finishes incl. TNTBG | matched 'GT72-TNT' in extracted text |
 | Pfister LG42-PFM0BG Pfirst Modern.pdf | verified (model-exact) | shop archive; Pfister spec submittal (pfisterstorage blob) | matched 'LG42-PFM0' in extracted text |
