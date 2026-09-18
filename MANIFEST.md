@@ -1,6 +1,6 @@
 # Product Manifest
 
-38 products, 10 categories, 13 brands.
+39 products, 10 categories, 13 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
@@ -31,6 +31,7 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Pfister LG42-PFM0BG Pfirst Modern | Faucets | 42.86 × 144.46 × 163.51 | authored from spec (SketchUp script) | ✓ |
 | Best HBC163ESS Ceiling Hood 63 | Hoods | 1612.9 × 309.56 × 700.09 | authored from spec (SketchUp script) | ✓ |
 | Miele DA 6891 Downdraft 36 | Hoods | 914 × 683.9 × 361.4 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ (+ flush mount) |
+| Miele DA 6891 Downdraft 36 (blower at back) | Hoods | 915 × 652 × 364 | authored from spec (SketchUp script) — Miele's rear-mount blower configuration | ✓ (shares the DA 6891 sheets) |
 | Lynx L30AGSS Asado Cooktop | Outdoor Cooking | 762 × 342.9 × 708.02 | authored from spec (SketchUp script) | ✓ |
 | Lynx L36TR Grill 36 | Outdoor Cooking | 914.4 × 628.65 × 644.52 | authored from spec (SketchUp script) | ✓ |
 | Lynx LPB Power Burner | Outdoor Cooking | 508 × 282.58 × 658.81 | authored from spec (SketchUp script) | ✓ |

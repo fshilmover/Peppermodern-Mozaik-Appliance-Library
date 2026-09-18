@@ -51,6 +51,9 @@ where polygon counts explode.
 `python tools/validate.py` must pass; it runs automatically on every pull request. It checks
 the name bindings, stretch flags, node/file pairing, and file-format details that Mozaik is
 strict about.
+A configuration variant of an existing product is named `<base product> (<variant>)` — for
+example `Miele DA 6891 Downdraft 36 (blower at back)` — and shares the base product's spec
+sheet; the validator accepts that.
 
 If git isn't your thing, email the files through
 [peppermodern.com/resources](https://peppermodern.com/resources) and we'll add them with credit.
