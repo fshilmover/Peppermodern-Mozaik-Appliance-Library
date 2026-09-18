@@ -1,7 +1,7 @@
 # Peppermodern Mozaik Appliance Library
 
 A free library of real appliances and plumbing fixtures for [Mozaik](https://www.mozaiksoftware.com/) —
-38 products across 10 categories, built to the manufacturers' spec sheets, locked to their true
+39 products across 10 categories, built to the manufacturers' spec sheets, locked to their true
 dimensions, and ready to place. Maintained by [Peppermodern](https://peppermodern.com/resources),
 a millwork + casework shop in Mooresville, NC.
 

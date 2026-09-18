@@ -106,8 +106,13 @@ spec_count = 0
 for moz in moz_files:
     pdf = SPECS / f"{moz.stem}.pdf"
     if not pdf.is_file():
-        err(f"specs/{moz.stem}.pdf missing — every product ships a verified spec sheet")
-        continue
+        # a configuration variant named "<base> (<variant>)" shares its base product's sheet
+        base = re.sub(r"\s\([^)]*\)$", "", moz.stem)
+        if base != moz.stem and (SPECS / f"{base}.pdf").is_file():
+            pdf = SPECS / f"{base}.pdf"
+        else:
+            err(f"specs/{moz.stem}.pdf missing — every product ships a verified spec sheet")
+            continue
     spec_count += 1
     if not pdf.read_bytes()[:4] == b"%PDF":
         err(f"specs/{moz.stem}.pdf is not a PDF")

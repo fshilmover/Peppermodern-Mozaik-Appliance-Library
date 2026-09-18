@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.2.1 — 2026-09-18
+
+- **Miele DA 6891 Downdraft 36 (blower at back)** (Hoods) — the same downdraft with the
+  DAG 600 blower in Miele's rear-mount position (installation manual p. 25: the blower
+  "can also be installed in the same position at the back of the appliance"). Requested by
+  Alpenglow Woodworks after the first release; Mozaik cannot rotate part of a SketchUp
+  product, so it is a second product. Built from Miele's printed dimensions (915 × 120 × 6
+  trim, 802 × 108 × 646 housing, 332 × 332 × 250 blower lifted 17, collar 150 at 463 below
+  the counter); the trim opening, canopy top and collar length are measured on Miele's own
+  model. Omits the wordmark emboss, touch pad and the small stub under the housing, so its
+  height reads 652 (Miele's unextended height) where the front-blower product reads 683.9.
+  Collar on the left, as on the front-blower product; the motor is rotatable, so treat the
+  collar side as a configuration.
+- Validator: a product named `<base> (<variant>)` shares the base product's spec sheet.
+
 ## v1.2.0 — 2026-09-17
 
 First products built by request through the resources-page form.
