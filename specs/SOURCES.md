@@ -1,7 +1,8 @@
 # Spec sheet sources
 
 One row per PDF in this folder. Every file passed the verification gauntlet on
-2026-08-27 (Miele rows: 2026-09-17): real `%PDF` header and the exact model string found in the extracted
+2026-08-27 (Miele DA 6891 / H 7580 BP rows: 2026-09-17; Bosch, Fulgor range, Miele G 5006 U /
+H 7640 BM rows: 2026-09-28): real `%PDF` header and the exact model string found in the extracted
 text — except the two Lynx CAD drawings (no text layer), which were verified
 visually and are byte-identical to the copies the shop already build-validated.
 "Shop archive" files were collected from Peppermodern's own job records, where
@@ -15,6 +16,7 @@ removed on request ([open an issue](../../../issues)).
 | AmeriSink AS1136.pdf | verified (model-exact) | shop archive; amerisink.com per-model spec PDF | matched 'AS1136' in extracted text |
 | AmeriSink AS240A.pdf | verified (model-exact) | shop archive; amerisink.com per-model spec PDF | matched 'AS240A' in extracted text |
 | Best HBC163ESS Ceiling Hood 63.pdf | verified (model-exact) | shop archive; Best official spec sheet (EN/FR) | matched 'HBC163ESS' in extracted text |
+| Bosch B36CL80ENS Refrigerator 36.pdf | verified (model-exact) | https://media3.bsh-group.com/Documents/MCDOC03224081_B36CL80ENS.pdf | Bosch spec sheet (9/26) "800 Series – Stainless Steel B36CL80ENS", recessed handles; installation details p. 2; matched 'B36CL80ENS' in extracted text |
 | Brizo 61363LF Beverage Faucet.pdf | verified (model-exact) | media.brizo.com spec submittal | model string verified in file |
 | Brizo 64063LF Kitchen Faucet.pdf | verified (model-exact) | media.brizo.com spec submittal | model string verified in file |
 | Brizo 81392 Raincan 12.pdf | verified (model-exact) | media.brizo.com/SpecSheet/BSP-B-81392 Rev B.pdf | model string verified in file |
@@ -25,6 +27,7 @@ removed on request ([open an issue](../../../issues)).
 | Brizo BSS-Odin Diverter Trim.pdf | verified (model-exact) | media.brizo.com spec submittal | sheet covers T60875 (Odin 3-function diverter trim — the model this product's geometry carries) |
 | Brizo T65875LF Lav Faucet.pdf | verified (model-exact) | Brizo-authored spec submittal (distributor asset host) | model string verified in file |
 | Fulgor F6IRT485GS1 Rangetop 48.pdf | verified (model-exact) | shop archive; Fulgor Milano official data sheet | matched 'F6IRT485GS1' in extracted text |
+| Fulgor F6PGR304S2 Range 30.pdf | verified (model-exact) | https://www.fulgor-milano.com/sites/default/files/2021-06/F6PGR304S2%20-%20DS.pdf (retrieved from the Internet Archive copy, complete: 857,026 bytes = origin size) | Fulgor Milano data sheet (2021-06), Sofia 600 Series 30" all-gas pro range; dimension table and iso on p. 2; matched 'F6PGR304S2' in extracted text |
 | GE Monogram ZTDX1FPSNSS Double Oven.pdf | verified (model-exact) | shop archive; GE-authored spec PDF (retailer-hosted; GE/Monogram sites block direct fetch) | matched 'ZTDX1FPSNSS' in extracted text |
 | Kohler K-26071-LA Tub 60.pdf | verified (model-exact) | techcomm.kohler.com/techcomm/pdf/K-26071-LA_spec_US-CA_Kohler_en.pdf | matched 'K-26071-LA' in extracted text |
 | Kohler K-2882 Undermount Lav.pdf | verified (model-exact) | techcomm.kohler.com/techcomm/pdf/K-2882_spec_US-CA_Kohler_en.pdf | matched 'K-2882' in extracted text |
@@ -33,7 +36,10 @@ removed on request ([open an issue](../../../issues)).
 | Lynx LPB Power Burner.pdf | verified (visual + MD5 vs shop copy) | lynxgrills.com CDN (du2gj1v5rko5e.cloudfront.net/file/653) | official dimensions drawing, prints LYNX POWER BURNER LPB; vector CAD (no text layer), verified visually + byte-identical (MD5) to the shop's build-validated copy |
 | Miele DA 6891 Downdraft 36.pdf | verified (model-exact) | https://media.miele.com/downloads/n-/us/FS_10595910_USE_US-en-US.pdf | Miele US product sheet for material no. 10595910; p. 3 carries the dimensioned installation drawings (appliance dai3801, cabinet dai3800, stepped cut-out); matched 'DA 6891' in extracted text |
 | Miele DA 6891 Downdraft 36 (flush mount).pdf | verified (model-exact) | https://ca.miele.ca/MieleMedia//docs//operatinginstructions/en-CA///All%20Spec%20Sheets/Spec%20Sheets%20-%20English/Ventilation/DA6891_Flush_Installation.en-CA.pdf | Miele Canada flush-mounting sheet — sole source of the tabulated SPECIFICATIONS block (unit heights, opening sizes, ducts, electrical) and the stepped stone cut-out; matched 'DA 6891' in extracted text |
+| Miele G 5006 U Dishwasher 24.pdf | verified (model-exact) | https://ca.miele.ca//MieleMedia//docs//operatinginstructions/en-CA///All%20Spec%20Sheets/Spec%20Sheets%20-%20English/Dishwashers/G%205006%20U%20and%20SCU%20Spec.pdf | Miele Canada spec sheet "G 5006 U / SCU", lists U CS 11588450; product-dimension and cut-out figures; matched 'G 5006 U' in extracted text |
+| Miele G 5006 U Dishwasher 24 (product sheet).pdf | verified (model-exact) | https://media.miele.com/downloads/n-/ca/FS_11588450_CAE_CA-en-CA.pdf | Miele product sheet for material no. 11588450 (G 5006 U Active, CleanTouch Steel); matched 'G 5006 U' in extracted text |
 | Miele H 7580 BP Wall Oven 30.pdf | verified (model-exact) | https://media.miele.com/downloads/n-/us/FS_11805540_USE_US-en-US.pdf | Miele US product sheet for material no. 11805540 (EDST/CLST), PDF title "H7580BP USA EDST/CLST 120/240/60"; proud + flush-inset installation drawings on p. 4; matched 'H 7580 BP' in extracted text |
+| Miele H 7640 BM Speed Oven 24.pdf | verified (model-exact) | https://media.miele.com/downloads/n-/us/FS_11804600_USE_US-en-US.pdf | Miele US product sheet for material no. 11804600 (EDST/CLST), PDF title "H7640BM USA EDST/CLST 120/240/60"; 24" (450S) proud, flush-inset and combination installation drawings pp. 6–8; matched 'H 7640 BM' in extracted text |
 | Pfister GT529-BIB Brislin.pdf | verified (model-exact) | shop archive; Pfister spec submittal (pfisterstorage blob) | matched 'GT529-BIB' in extracted text |
 | Pfister GT72-TNTBG Tenet.pdf | verified (model-exact) | shop archive; Pfister spec submittal (pfisterstorage blob), finishes incl. TNTBG | matched 'GT72-TNT' in extracted text |
 | Pfister LG42-PFM0BG Pfirst Modern.pdf | verified (model-exact) | shop archive; Pfister spec submittal (pfisterstorage blob) | matched 'LG42-PFM0' in extracted text |

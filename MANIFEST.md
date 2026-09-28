@@ -1,18 +1,19 @@
 # Product Manifest
 
-39 products, 10 categories, 13 brands.
+43 products, 11 categories, 14 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
-model's measured envelope, checked against every published overall dimension (deltas,
-all within a couple of millimetres, are listed in the changelog). Mozaik displays them in
-your job's units and scales the model to these numbers.
+model's measured envelope, checked against every published overall dimension. Where the
+model and the spec sheet disagree, the spec sheet wins: the model is scaled on that axis
+to the published figure (never edited), and the factor is listed in the changelog. Mozaik
+displays the dimensions in your job's units and scales the model to these numbers.
 All products are fixed-size (`WStretch/HStretch/DStretch = False`) and carry a SketchUp
 model (`UseSUModel=1`).
 
 **Model source** is either *authored from spec* — built in SketchUp to the spec-sheet
 dimensions — or *manufacturer model* — the manufacturer's own published 3D geometry,
-re-anchored or unit-corrected to Mozaik's axes but not remodeled. Manufacturer models
+re-anchored, unit-corrected or scaled to the spec sheet, but not remodeled. Manufacturer models
 remain their manufacturers' property (see [LICENSE](LICENSE)); a manufacturer who wants
 a file removed can open an issue and it comes out.
 
@@ -22,6 +23,7 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Product | Category | W × H × D (mm) | Model source | Spec sheet |
 |---|---|---|---|---|
 | Fulgor F6IRT485GS1 Rangetop 48 | Cooktops + Rangetops | 1216 × 187 × 743.8 | manufacturer model (vendor 3D files, repackaged) | ✓ |
+| Miele G 5006 U Dishwasher 24 | Dishwashers | 598 × 855 × 573 | manufacturer model (miele.ca CAD/BIM download, IFC), height scaled to the spec sheet | ✓ (+ product sheet) |
 | Samsung DW80CG4021SR Dishwasher | Dishwashers | 603.25 × 857.25 × 683 | authored from spec (SketchUp script) | ✓ |
 | Brizo 61363LF Beverage Faucet | Faucets | 88.9 × 246.68 × 162.33 | manufacturer model (brizo.com / BIMsmith) | ✓ |
 | Brizo 64063LF Kitchen Faucet | Faucets | 142.08 × 373.26 × 270.62 | manufacturer model (brizo.com / BIMsmith) | ✓ |
@@ -37,9 +39,12 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Lynx LPB Power Burner | Outdoor Cooking | 508 × 282.58 × 658.81 | authored from spec (SketchUp script) | ✓ |
 | GE Monogram ZTDX1FPSNSS Double Oven | Ovens | 755.65 × 1300.16 × 706.44 | authored from spec (SketchUp script) | ✓ |
 | Miele H 7580 BP Wall Oven 30 | Ovens | 757 × 727 × 688 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ |
+| Miele H 7640 BM Speed Oven 24 | Ovens | 595 × 455.5 × 620.3 | manufacturer model (mieleusa.com CAD/BIM download, IFC), height scaled to the spec sheet | ✓ |
 | Wolf CSO24TE Steam Oven | Ovens | 597 × 454 × 582 | manufacturer model (subzero-wolf.com), used unmodified | ✓ (+ flush inset) |
 | Wolf CSO3050PE Steam Oven | Ovens | 758.6 × 446.9 × 605.4 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
 | Wolf SO3050PE Wall Oven | Ovens | 759 × 708 × 650 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
+| Fulgor F6PGR304S2 Range 30 | Ranges | 758 × 923.89 × 756 | manufacturer model (fulgor-milano.com CAD files, SketchUp), depth scaled to the spec sheet; shown with the 1" island trim | ✓ |
+| Bosch B36CL80ENS Refrigerator 36 | Refrigeration | 905 × 1830 × 706 | manufacturer model (bosch-home.com CAD file, SketchUp), scaled to the spec sheet | ✓ |
 | Samsung RF70F27SER Refrigerator | Refrigeration | 908.05 × 1778 × 806.45 | authored from spec (SketchUp script) | ✓ |
 | Samsung RF70H30GER Refrigerator | Refrigeration | 911.225 × 1784.35 × 863.6 | authored from spec (SketchUp script) | ✓ |
 | SubZero DEC1850FIL Freezer 18 | Refrigeration | 457.2 × 2133.6 × 609.6 | authored from spec (SketchUp script) | ✓ |

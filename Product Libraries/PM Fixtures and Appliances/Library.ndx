@@ -50,4 +50,9 @@
   <Node Name="Miele H 7580 BP Wall Oven 30" ID="136" ParentID="12" IsFolder="False" Expanded="False" />
   <Node Name="Miele DA 6891 Downdraft 36" ID="137" ParentID="14" IsFolder="False" Expanded="False" />
   <Node Name="Miele DA 6891 Downdraft 36 (blower at back)" ID="138" ParentID="14" IsFolder="False" Expanded="False" />
+  <Node Name="Miele H 7640 BM Speed Oven 24" ID="140" ParentID="12" IsFolder="False" Expanded="False" />
+  <Node Name="Miele G 5006 U Dishwasher 24" ID="142" ParentID="19" IsFolder="False" Expanded="False" />
+  <Node Name="Bosch B36CL80ENS Refrigerator 36" ID="139" ParentID="13" IsFolder="False" Expanded="False" />
+  <Node Name="Ranges" ID="20" ParentID="0" IsFolder="True" Expanded="False" />
+  <Node Name="Fulgor F6PGR304S2 Range 30" ID="141" ParentID="20" IsFolder="False" Expanded="False" />
 </ProductLibrary>

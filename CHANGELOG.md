@@ -1,12 +1,38 @@
 # Changelog
 
+## v1.3.0 — 2026-09-28
+
+Four new products and a new **Ranges** category. All four are the manufacturers' own 3D
+models, wrapped unmodified.
+
+- **Bosch B36CL80ENS Refrigerator 36** (Refrigeration). Bosch's trade-CAD SketchUp model
+  from the product page's "CAD File" download.
+- **Fulgor F6PGR304S2 Range 30** (Ranges). Fulgor's own SketchUp model. It is shown with the
+  1" cast-iron island trim, which Fulgor draws as standard and also sells as accessory
+  F6BG30BCI / F6BG30ISL; backguards are not shown. The legs are at their lowest setting. The
+  product's Notes field says the same; ask through the form for another configuration.
+- **Miele H 7640 BM Speed Oven 24** (Ovens). Miele's IFC from the mieleusa.com CAD/BIM
+  download.
+- **Miele G 5006 U Dishwasher 24** (Dishwashers), the Canadian model. Miele's IFC from the
+  miele.ca CAD/BIM download. Its spec sheet ships alongside Miele's product sheet.
+- **Where a manufacturer's model and its spec sheet disagree, the spec sheet now wins.** We
+  first check the gap isn't a part the printed figure leaves out. None was, in any of these
+  four. We then scale the model on that axis, and never edit its geometry. Factors:
+  - Bosch, width ×0.99412, height ×1.00459 and depth ×1.00197, giving 905 × 1830 × 706.
+  - Fulgor, depth ×1.00308, giving 756.
+  - The speed oven, height ×1.00110, giving 455.5.
+  - The dishwasher, height ×1.01183, giving 855. Miele's model has the legs fully retracted,
+    at the 845 its European sheets print. It now meets the North American sheet's 855
+    minimum; the door renders 9 mm taller than printed as a result.
+
+  MANIFEST and CONTRIBUTING now describe this rule.
+
 ## v1.2.1 — 2026-09-18
 
 - **Miele DA 6891 Downdraft 36 (blower at back)** (Hoods) — the same downdraft with the
   DAG 600 blower in Miele's rear-mount position (installation manual p. 25: the blower
-  "can also be installed in the same position at the back of the appliance"). Requested by
-  Alpenglow Woodworks after the first release; Mozaik cannot rotate part of a SketchUp
-  product, so it is a second product. Built from Miele's printed dimensions (915 × 120 × 6
+  "can also be installed in the same position at the back of the appliance"). Mozaik cannot
+  rotate part of a SketchUp product, so it is a second product. Built from Miele's printed dimensions (915 × 120 × 6
   trim, 802 × 108 × 646 housing, 332 × 332 × 250 blower lifted 17, collar 150 at 463 below
   the counter); the trim opening, canopy top and collar length are measured on Miele's own
   model. Omits the wordmark emboss, touch pad and the small stub under the housing, so its
@@ -19,8 +45,8 @@
 
 First products built by request through the resources-page form.
 
-- **Miele H 7580 BP Wall Oven 30** (Ovens) and **Miele DA 6891 Downdraft 36** (Hoods),
-  requested by Alpenglow Woodworks. Both are Miele's own BIM geometry (the IFC in the
+- **Miele H 7580 BP Wall Oven 30** (Ovens) and **Miele DA 6891 Downdraft 36** (Hoods).
+  Both are Miele's own BIM geometry (the IFC in the
   "CAD data / BIM data" download on each mieleusa.com product page), wrapped unmodified
   into the Mozaik frame; the downdraft ships retracted, with the blower box where Miele
   modeled it (its real position is configurable — see the spec). Dimensions in the
