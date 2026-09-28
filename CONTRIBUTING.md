@@ -12,7 +12,10 @@ Additions welcome. A product contribution is a pair of files plus one index line
    manufacturer's published overall dimensions in millimeters — never estimated. For a
    manufacturer's own 3D model they are the wrapped model's measured envelope, which must
    agree with the published numbers (Mozaik scales the model to the `.moz` values, so a
-   mismatch renders stretched); state any delta in the PR. Say which spec sheet (link it).
+   mismatch renders stretched). Where they disagree, the spec sheet wins: first check the
+   gap isn't a part the published figure leaves out (a handle, trim, hinge cover), then
+   scale the wrapped model on that axis to the published figure — never edit its
+   geometry — and state the factor in the PR. Say which spec sheet (link it).
 3. **A `<Node>` line** in the library's `Library.ndx` under the right category folder, with
    `Name` exactly equal to the product name and an unused `ID`. Preserve the file's format:
    first line `4`, CRLF line endings, no BOM.
