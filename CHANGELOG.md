@@ -1,5 +1,29 @@
 # Changelog
 
+## v1.3.2 — 2026-09-29
+
+A user measured the Miele dishwasher's face at 30 9/16"; Miele prints 30 3/16" (767 mm).
+v1.3.0 had stretched each of this release's four manufacturer models to match its sheet's
+printed overall size. On the dishwasher, the 10 mm difference really sat in the legs, and
+the stretch moved it into the face. All four models now ship as the manufacturers drew
+them. Their doors and faces keep their true sizes, and openings come from the spec sheets.
+
+- **Miele G 5006 U Dishwasher 24:** 598 × 845 × 573. The face is Miele's 767 mm (30 3/16")
+  again. Miele's model stands 845 mm, which is what Miele's European sheets print; that is
+  10 mm under the 855–920 mm installed range on its North American sheet. Size the niche
+  from the spec sheet.
+- **Bosch B36CL80ENS Refrigerator 36:** 910.35 × 1821.65 × 704.61. Bosch prints
+  905 × 1830 × 706. Bosch's model has its case sides 2 mm outboard of the doors on each
+  side, and its top sits 8 mm lower. The doors match the sheet. Size the opening from the
+  spec sheet.
+- **Miele H 7640 BM Speed Oven 24:** 595 × 455 × 620.3. The door and control band are
+  exact; the 0.5 mm difference sits in the gap between them.
+- **Fulgor F6PGR304S2 Range 30:** 758 × 923.89 × 753.68. That depth is 0.3–2.3 mm short
+  of Fulgor's own printed 754 / 756.
+- The dishwasher and fridge Descriptions state what to size from the spec sheet.
+- MANIFEST and CONTRIBUTING: a manufacturer's model is scaled only to correct a uniform
+  units or export error.
+
 ## v1.3.1 — 2026-09-29
 
 - **Fulgor F6PGR304S2 Range 30:** the note about what the model shows (1" island trim,
@@ -23,7 +47,8 @@ models, wrapped unmodified.
   download.
 - **Miele G 5006 U Dishwasher 24** (Dishwashers), the Canadian model. Miele's IFC from the
   miele.ca CAD/BIM download. Its spec sheet ships alongside Miele's product sheet.
-- **Where a manufacturer's model and its spec sheet disagree, the spec sheet now wins.** We
+- **(Reverted in v1.3.2.)** Where a manufacturer's model and its spec sheet disagree, the
+  spec sheet now wins. We
   first check the gap isn't a part the printed figure leaves out. None was, in any of these
   four. We then scale the model on that axis, and never edit its geometry. Factors:
   - Bosch, width ×0.99412, height ×1.00459 and depth ×1.00197, giving 905 × 1830 × 706.
