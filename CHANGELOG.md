@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.1 — 2026-09-29
+
+- **Fulgor F6PGR304S2 Range 30:** the note about what the model shows (1" island trim,
+  no backguards, other configurations on request) moves to the product's **Description**
+  field, shown at the top of Mozaik's Product Editor. v1.3.0 put it in the Notes field.
+  Mozaik doesn't show that field for appliances, and prints it on cabinet labels and
+  assembly sheets.
+
 ## v1.3.0 — 2026-09-28
 
 Four new products and a new **Ranges** category. All four are the manufacturers' own 3D
@@ -9,8 +17,8 @@ models, wrapped unmodified.
   from the product page's "CAD File" download.
 - **Fulgor F6PGR304S2 Range 30** (Ranges). Fulgor's own SketchUp model. It is shown with the
   1" cast-iron island trim, which Fulgor draws as standard and also sells as accessory
-  F6BG30BCI / F6BG30ISL; backguards are not shown. The legs are at their lowest setting. The
-  product's Notes field says the same; ask through the form for another configuration.
+  F6BG30BCI / F6BG30ISL; backguards are not shown. The legs are at their lowest setting. Ask
+  through the form for another configuration.
 - **Miele H 7640 BM Speed Oven 24** (Ovens). Miele's IFC from the mieleusa.com CAD/BIM
   download.
 - **Miele G 5006 U Dishwasher 24** (Dishwashers), the Canadian model. Miele's IFC from the
