@@ -47,7 +47,7 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Wolf CSO3050PE Steam Oven | Ovens | 758.6 × 446.9 × 605.4 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
 | Wolf SO3050PE Wall Oven | Ovens | 759 × 708 × 650 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
 | Fulgor F6PGR304S2 Range 30 | Ranges | 758 × 923.89 × 753.68 | manufacturer model (fulgor-milano.com CAD files, SketchUp); shown with the 1" island trim | ✓ |
-| Bosch B36CL80ENS Refrigerator 36 | Refrigeration | 910.35 × 1821.65 × 704.61 | manufacturer model (bosch-home.com CAD file, SketchUp); size openings from the spec sheet (905 × 1830) | ✓ |
+| Bosch B36CL80ENS Refrigerator 36 | Refrigeration | 910.35 × 1821.65 × 704.61 | manufacturer model (bosch-home.com CAD file, SketchUp), stainless texture applied; size openings from the spec sheet (905 × 1830) | ✓ |
 | Samsung RF70F27SER Refrigerator | Refrigeration | 908.05 × 1778 × 806.45 | authored from spec (SketchUp script) | ✓ |
 | Samsung RF70H30GER Refrigerator | Refrigeration | 911.225 × 1784.35 × 863.6 | authored from spec (SketchUp script) | ✓ |
 | SubZero DEC1850FIL Freezer 18 | Refrigeration | 457.2 × 2133.6 × 609.6 | authored from spec (SketchUp script) | ✓ |
