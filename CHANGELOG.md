@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased: texture experiment
+
+- **Bosch B36CL80ENS Refrigerator 36** gets a brushed-stainless image texture. Until now
+  it rendered white: Bosch's model has one plain-white material on every face. Only that
+  material changed; the geometry is identical to v1.3.2. The texture is our own, a
+  procedurally generated 512 px seamless tile mapped at 300 mm, so it is covered by this
+  library's licence. Bosch's own product photo shows horizontal grain, and the texture
+  runs the same way. Because the model uses one material, its sides, top and back also
+  show stainless.
+  This is the first of a planned roll-out to the library's other stainless products.
+
 ## v1.3.2 — 2026-09-29
 
 A user measured the Miele dishwasher's face at 30 9/16"; Miele prints 30 3/16" (767 mm).
