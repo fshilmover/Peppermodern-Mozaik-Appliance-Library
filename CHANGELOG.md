@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.4.1 — 2026-10-11
+
+- **Samsung RF70H30GER Refrigerator:** the product's Notes field is now empty. It held an
+  old note from one shop job telling that job not to use this fridge. The note was about the
+  job, not the product. Mozaik prints Notes on cabinet labels and assembly sheets, so every
+  shop that placed this fridge would have printed it. The model, its size and its spec sheet
+  are unchanged.
+- The validator now fails any product whose Notes field is filled. Notes is the cabinet Notes
+  tab: an appliance's Product Editor does not show it, and it prints on labels and assembly
+  sheets. Text about a product belongs in its Description field (`ProductDesc`), at the top
+  of the Product Editor.
+
 ## v1.4.0 — 2026-10-11
 
 One new product and a new brand, Thermador.
