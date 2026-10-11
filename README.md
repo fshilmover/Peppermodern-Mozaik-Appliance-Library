@@ -1,7 +1,7 @@
 # Peppermodern Mozaik Appliance Library
 
 A free library of real appliances and plumbing fixtures for [Mozaik](https://www.mozaiksoftware.com/) —
-43 products across 11 categories, built to the manufacturers' spec sheets, locked to their true
+44 products across 11 categories, built to the manufacturers' spec sheets, locked to their true
 dimensions, and ready to place. Maintained by [Peppermodern](https://peppermodern.com/resources),
 a millwork + casework shop in Mooresville, NC.
 
@@ -9,7 +9,7 @@ a millwork + casework shop in Mooresville, NC.
 Outdoor Cooking · Sinks · Faucets · Showers · Tubs
 
 **Brands:** AmeriSink, Best, Bosch, Brizo, Fulgor, GE Monogram, Kohler, Lynx, Miele, Pfister,
-Ruvati, Samsung, Sub-Zero, Wolf
+Ruvati, Samsung, Sub-Zero, Thermador, Wolf
 
 ![A sampling of the library's 3D models — ovens, refrigeration, dishwasher, hood, rangetop, grill, sink, faucet, tub](docs/images/library-collage.png)
 
