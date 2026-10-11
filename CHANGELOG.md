@@ -1,5 +1,31 @@
 # Changelog
 
+## v1.4.5 — 2026-10-11
+
+The Ruvati RVH8555 Workstation Sink model is rebuilt to match Ruvati's dimension drawing.
+
+- **Ledges:** the two accessory ledges along the front and the back now each step in 11/16".
+  The rim opening is 17-3/8" front to back, the upper ledge's inside edge is 16", and the bowl
+  below the lower ledge is 14-5/8", as Ruvati's product page gives it. Ruvati's drawing labels
+  each ledge 3/4"; only 11/16" fits those three printed sizes. Ruvati's spec sheet calls the
+  16" size the interior bowl, but its drawing shows the lower ledge inside that line. The old
+  model had a 16" bowl.
+- **Ledge heights:** the upper ledge sits 1" and the lower ledge 2" below the top of the rim.
+  Ruvati's drawing shows both but prints no height, so both are scaled from the drawing, whose
+  printed sizes check to within 0.1". The old model had them 3/4" and 1-1/2" down, estimated
+  from photos.
+- **Body:** below the rim, the sink is now a formed stainless shell that steps in at each
+  ledge and is 55-1/2" long, as Ruvati's elevation draws it. The old model was a solid block the
+  full 57" × 19" size of the rim, so it showed the body 3/4" too long at each end and up to
+  2-1/8" too deep at the front and the back.
+- **Rim:** the rim's four corners are clipped, as Ruvati draws them. Each clip runs from the
+  rim opening to the outside edge, so its legs are the 13/16" width of the rim.
+- **Unchanged:** the size Mozaik uses (1447.8 × 252.41 × 482.6 mm), the origin at the top of
+  the rim (Elevation = the countertop underside), the drain 6-1/4" from the right inside wall,
+  the floor sloping 9" to 9-7/8" toward the drain, and the `.moz` file.
+- **Already placed:** a sink already placed in a job shows the new model the next time the job
+  opens; it does not need to be placed again.
+
 ## v1.4.3 — 2026-10-11
 
 The Fulgor rangetop and range now use Mozaik's range appliance type instead of its cooktop type.
