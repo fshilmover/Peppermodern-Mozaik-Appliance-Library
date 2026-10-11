@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.4.3 — 2026-10-11
+
+The Fulgor rangetop and range now use Mozaik's range appliance type instead of its cooktop type.
+
+- **Products:** Fulgor F6IRT485GS1 Rangetop 48 and Fulgor F6PGR304S2 Range 30. Sizes, models,
+  elevations and descriptions are unchanged.
+- **Why:** as in v1.4.2, Mozaik draws a cooktop-type appliance in its 3D views 58.5 mm further
+  from the wall than the floor plan shows. A pro rangetop sits on its cabinet like Mozaik's own
+  Pro Rangetops, which use the range type; the cooktop type is for drop-ins.
+- **Countertops:** no appliance type cuts the countertop in Mozaik; only sinks get an automatic
+  cutout. Notch the countertop around a rangetop by editing the top's shape, the same way as
+  for an apron sink.
+- **Already placed:** a placed appliance keeps the type it was placed with. Delete and re-place
+  it to pick up the change, then set its Elevation and Outset again.
+
 ## v1.4.2 — 2026-10-11
 
 The seven ovens now use Mozaik's range appliance type instead of its cooktop type.

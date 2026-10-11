@@ -19,6 +19,6 @@ Mozaik Product Properties File
   <RightFace MaxSecID="0" />
   <BackFace MaxSecID="0" />
   <TopShapeXml Version="2" Name="" Type="0" RadiusX="0" RadiusY="0" Source="0" Data1="0" Data2="0" RotAng="0" DoNotTranslateTo00="False" />
-  <ProductType Type="7" SubType="9" SubSubType="1" />
+  <ProductType Type="7" SubType="8" SubSubType="1" />
   <LabelDimensionOverrideMap />
 </Product>
