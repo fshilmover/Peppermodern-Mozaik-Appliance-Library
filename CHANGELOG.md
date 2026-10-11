@@ -19,6 +19,21 @@ One new product and a new brand, Thermador.
     from the spec sheet. The product's Description field says the same.
 - The install guide no longer states a product count; README and MANIFEST carry it.
 
+## v1.3.3 — 2026-10-10
+
+- **Fulgor F6IRT485GS1 Rangetop 48:** the model now stands on the cabinet below it.
+  Its origin was at the counter line, 7" (179 mm) above the bottom of the unit. Setting
+  Elevation to the cabinet top therefore sank the body into the cabinet, leaving the
+  glass level with the cabinet top. Fulgor's side view shows this rangetop resting on
+  the cabinet or an open frame, so the origin is now the bottom of the unit. Set
+  Elevation to the top of the cabinet it sits on.
+- The new default Elevation is 729.05 mm (28 11/16"). That puts the counter line at a
+  standard 35 3/4" (908.05 mm) counter top, 7" above the cabinet, which is Fulgor's
+  cutout height. The glass stands 3/8" (8 mm) above the counter.
+- The size (1216 × 187 × 743.8) and the model's appearance are unchanged. Fulgor's
+  component is the same; only its position inside the file moved up 179 mm.
+- The product's Description says where to set Elevation.
+
 ## v1.3.2 — 2026-09-29
 
 A user measured the Miele dishwasher's face at 30 9/16"; Miele prints 30 3/16" (767 mm).
