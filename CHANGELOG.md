@@ -1,5 +1,23 @@
 # Changelog
 
+## v1.4.0 — 2026-10-11
+
+One new product and a new brand, Thermador.
+
+- **Thermador PO302W Double Oven 30** (Ovens): the 30" Professional double wall oven, with
+  bottom-hinge doors and Professional handles. Thermador's CAD download holds 2D views only,
+  so the model is built in SketchUp from Thermador's printed dimensions. The doors, handles,
+  glass, display and knob positions are scaled from Thermador's current product photo. The
+  knob profile comes from its 2D CAD views.
+  - Size: 755.65 × 1322.39 × 688.98, which is the printed 29 3/4" × 52 1/16". The depth is
+    the printed 24 1/2" to the door face plus the 2 5/8" (67 mm) handle; Thermador's guide
+    prints the total as 27 1/8" (689 mm).
+  - Thermador's millimetre figures round the inches differently from page to page (756 or
+    755 wide, 1324 or 1323 tall). The model follows the inches.
+  - The oven rests on the floor of its cut-out: set Elevation to that floor. Size the cut-out
+    from the spec sheet.
+- The install guide no longer states a product count; README and MANIFEST carry it.
+
 ## v1.3.2 — 2026-09-29
 
 A user measured the Miele dishwasher's face at 30 9/16"; Miele prints 30 3/16" (767 mm).
