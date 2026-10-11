@@ -5,8 +5,9 @@
 One new product and a new brand, Thermador.
 
 - **Thermador PO302W Double Oven 30** (Ovens): the 30" Professional double wall oven, with
-  bottom-hinge doors and Professional handles. Thermador's CAD download holds 2D views only,
-  so the model is built in SketchUp from Thermador's printed dimensions. The doors, handles,
+  bottom-hinge doors and Professional handles. Thermador's CAD download holds a 2D drawing and
+  a Revit family that SketchUp cannot open, so the model is built in SketchUp from Thermador's
+  printed dimensions. The doors, handles,
   glass, display and knob positions are scaled from Thermador's current product photo. The
   knob profile comes from its 2D CAD views.
   - Size: 755.65 × 1322.39 × 688.98, which is the printed 29 3/4" × 52 1/16". The depth is
@@ -15,7 +16,7 @@ One new product and a new brand, Thermador.
   - Thermador's millimetre figures round the inches differently from page to page (756 or
     755 wide, 1324 or 1323 tall). The model follows the inches.
   - The oven rests on the floor of its cut-out: set Elevation to that floor. Size the cut-out
-    from the spec sheet.
+    from the spec sheet. The product's Description field says the same.
 - The install guide no longer states a product count; README and MANIFEST carry it.
 
 ## v1.3.2 — 2026-09-29
