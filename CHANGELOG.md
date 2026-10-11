@@ -12,6 +12,40 @@
   sheets. Text about a product belongs in its Description field (`ProductDesc`), at the top
   of the Product Editor.
 
+## v1.4.0 — 2026-10-11
+
+One new product and a new brand, Thermador.
+
+- **Thermador PO302W Double Oven 30** (Ovens): the 30" Professional double wall oven, with
+  bottom-hinge doors and Professional handles. Thermador's CAD download holds a 2D drawing and
+  a Revit family that SketchUp cannot open, so the model is built in SketchUp from Thermador's
+  printed dimensions. The doors, handles,
+  glass, display and knob positions are scaled from Thermador's current product photo. The
+  knob profile comes from its 2D CAD views.
+  - Size: 755.65 × 1322.39 × 688.98, which is the printed 29 3/4" × 52 1/16". The depth is
+    the printed 24 1/2" to the door face plus the 2 5/8" (67 mm) handle; Thermador's guide
+    prints the total as 27 1/8" (689 mm).
+  - Thermador's millimetre figures round the inches differently from page to page (756 or
+    755 wide, 1324 or 1323 tall). The model follows the inches.
+  - The oven rests on the floor of its cut-out: set Elevation to that floor. Size the cut-out
+    from the spec sheet. The product's Description field says the same.
+- The install guide no longer states a product count; README and MANIFEST carry it.
+
+## v1.3.3 — 2026-10-10
+
+- **Fulgor F6IRT485GS1 Rangetop 48:** the model now stands on the cabinet below it.
+  Its origin was at the counter line, 7" (179 mm) above the bottom of the unit. Setting
+  Elevation to the cabinet top therefore sank the body into the cabinet, leaving the
+  glass level with the cabinet top. Fulgor's side view shows this rangetop resting on
+  the cabinet or an open frame, so the origin is now the bottom of the unit. Set
+  Elevation to the top of the cabinet it sits on.
+- The new default Elevation is 729.05 mm (28 11/16"). That puts the counter line at a
+  standard 35 3/4" (908.05 mm) counter top, 7" above the cabinet, which is Fulgor's
+  cutout height. The glass stands 3/8" (8 mm) above the counter.
+- The size (1216 × 187 × 743.8) and the model's appearance are unchanged. Fulgor's
+  component is the same; only its position inside the file moved up 179 mm.
+- The product's Description says where to set Elevation.
+
 ## v1.3.2 — 2026-09-29
 
 A user measured the Miele dishwasher's face at 30 9/16"; Miele prints 30 3/16" (767 mm).

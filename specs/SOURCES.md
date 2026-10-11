@@ -2,7 +2,7 @@
 
 One row per PDF in this folder. Every file passed the verification gauntlet on
 2026-08-27 (Miele DA 6891 / H 7580 BP rows: 2026-09-17; Bosch, Fulgor range, Miele G 5006 U /
-H 7640 BM rows: 2026-09-28): real `%PDF` header and the exact model string found in the extracted
+H 7640 BM rows: 2026-09-28; Thermador PO302W row: 2026-10-11): real `%PDF` header and the exact model string found in the extracted
 text — except the two Lynx CAD drawings (no text layer), which were verified
 visually and are byte-identical to the copies the shop already build-validated.
 "Shop archive" files were collected from Peppermodern's own job records, where
@@ -53,6 +53,7 @@ removed on request ([open an issue](../../../issues)).
 | SubZero DEC1850FIL Freezer 18.pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference (sheet headed DEC1850FI) | matched 'DEC1850FI' in extracted text |
 | SubZero DEC3650RIDL Fridge 36.pdf | verified (model-exact) | shop archive; same DEC3650RID sheet — covers L/R hinge variants | one Sub-Zero DEC3650RID sheet covers the L/R hinge variants; matched 'DEC3650RID' in extracted text |
 | SubZero DEC3650RIDR Fridge 36.pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference — one DEC3650RID sheet covers L/R hinge variants | one Sub-Zero DEC3650RID sheet covers the L/R hinge variants; matched 'DEC3650RID' in extracted text |
+| Thermador PO302W Double Oven 30.pdf | verified (model-exact) | https://media3.bsh-group.com/Documents/MCDOC02802515_PO302W-30-INCH-DOUBLE-BUILT-IN-OVEN-Specifications.pdf | Thermador spec sheet (9/26) "PO302W 30-Inch Double Built-In Oven, Professional Collection", bottom-hinge doors; installation drawings pp. 2–3; matched 'PO302W' in extracted text |
 | Wolf CSO24TE Steam Oven.pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference (standard install), model CSO24TE/S/TH | matched 'CSO24TE' in extracted text |
 | Wolf CSO24TE Steam Oven (flush inset).pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference (flush inset) | matched 'CSO24TE' in extracted text |
 | Wolf CSO3050PE Steam Oven.pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference (standard install) | matched 'CSO3050' in extracted text |
