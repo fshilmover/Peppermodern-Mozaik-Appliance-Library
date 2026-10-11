@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased: texture experiment
+## v1.4.4 — 2026-10-11
 
 - **Bosch B36CL80ENS Refrigerator 36** gets a brushed-stainless image texture. Until now
   it rendered white: Bosch's model has one plain-white material on every face. Only that
@@ -9,6 +9,8 @@
   library's licence. Bosch's own product photo shows horizontal grain, and the texture
   runs the same way. Because the model uses one material, its sides, top and back also
   show stainless.
+  Mozaik shows the texture in the product preview, in its 3D product viewer and in its
+  SketchUp 3D export of a room.
   This is the first of a planned roll-out to the library's other stainless products.
 
 ## v1.4.3 — 2026-10-11
