@@ -11,8 +11,8 @@ The seven ovens now use Mozaik's range appliance type instead of its cooktop typ
 - **Products:** Wolf CSO3050PE Steam Oven, Wolf SO3050PE Wall Oven, GE Monogram ZTDX1FPSNSS
   Double Oven, Wolf CSO24TE Steam Oven, Miele H 7580 BP Wall Oven 30, Miele H 7640 BM Speed
   Oven 24, Thermador PO302W Double Oven 30. Sizes, models and descriptions are unchanged.
-- **Ovens already placed in a job:** a placed appliance stores its own type in the job. Re-place
-  one to be sure it picks up the change.
+- **Ovens already placed in a job keep the cooktop type.** A placed appliance stores its own type,
+  and re-opening the job does not update it. Delete and re-place an oven to pick up the change.
 
 ## v1.4.0 — 2026-10-11
 
