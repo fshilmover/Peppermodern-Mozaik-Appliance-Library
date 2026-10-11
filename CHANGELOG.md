@@ -11,6 +11,81 @@
   show stainless.
   This is the first of a planned roll-out to the library's other stainless products.
 
+## v1.4.3 — 2026-10-11
+
+The Fulgor rangetop and range now use Mozaik's range appliance type instead of its cooktop type.
+
+- **Products:** Fulgor F6IRT485GS1 Rangetop 48 and Fulgor F6PGR304S2 Range 30. Sizes, models,
+  elevations and descriptions are unchanged.
+- **Why:** as in v1.4.2, Mozaik draws a cooktop-type appliance in its 3D views 58.5 mm further
+  from the wall than the floor plan shows. A pro rangetop sits on its cabinet like Mozaik's own
+  Pro Rangetops, which use the range type; the cooktop type is for drop-ins.
+- **Countertops:** no appliance type cuts the countertop in Mozaik; only sinks get an automatic
+  cutout. Notch the countertop around a rangetop by editing the top's shape, the same way as
+  for an apron sink.
+- **Already placed:** a placed appliance keeps the type it was placed with. Delete and re-place
+  it to pick up the change, then set its Elevation and Outset again.
+
+## v1.4.2 — 2026-10-11
+
+The seven ovens now use Mozaik's range appliance type instead of its cooktop type.
+
+- **Why:** Mozaik draws a cooktop-type appliance in its 3D views with the back 58.5 mm in
+  front of the wall, whatever the appliance's depth, even when the floor plan shows it against
+  the wall. Mozaik's own cooktop does the same. Range-type appliances (and Mozaik's own ranges)
+  sit against the wall in both views. The ovens had inherited the cooktop type from a template.
+- **Products:** Wolf CSO3050PE Steam Oven, Wolf SO3050PE Wall Oven, GE Monogram ZTDX1FPSNSS
+  Double Oven, Wolf CSO24TE Steam Oven, Miele H 7580 BP Wall Oven 30, Miele H 7640 BM Speed
+  Oven 24, Thermador PO302W Double Oven 30. Sizes, models and descriptions are unchanged.
+- **Ovens already placed in a job keep the cooktop type.** A placed appliance stores its own type,
+  and re-opening the job does not update it. Delete and re-place an oven to pick up the change.
+
+## v1.4.1 — 2026-10-11
+
+- **Samsung RF70H30GER Refrigerator:** the product's Notes field is now empty. It held an
+  old note from one shop job telling that job not to use this fridge. The note was about the
+  job, not the product. Mozaik prints Notes on cabinet labels and assembly sheets, so every
+  shop that placed this fridge would have printed it. The model, its size and its spec sheet
+  are unchanged.
+- The validator now fails any product whose Notes field is filled. Notes is the cabinet Notes
+  tab: an appliance's Product Editor does not show it, and it prints on labels and assembly
+  sheets. Text about a product belongs in its Description field (`ProductDesc`), at the top
+  of the Product Editor.
+
+## v1.4.0 — 2026-10-11
+
+One new product and a new brand, Thermador.
+
+- **Thermador PO302W Double Oven 30** (Ovens): the 30" Professional double wall oven, with
+  bottom-hinge doors and Professional handles. Thermador's CAD download holds a 2D drawing and
+  a Revit family that SketchUp cannot open, so the model is built in SketchUp from Thermador's
+  printed dimensions. The doors, handles,
+  glass, display and knob positions are scaled from Thermador's current product photo. The
+  knob profile comes from its 2D CAD views.
+  - Size: 755.65 × 1322.39 × 688.98, which is the printed 29 3/4" × 52 1/16". The depth is
+    the printed 24 1/2" to the door face plus the 2 5/8" (67 mm) handle; Thermador's guide
+    prints the total as 27 1/8" (689 mm).
+  - Thermador's millimetre figures round the inches differently from page to page (756 or
+    755 wide, 1324 or 1323 tall). The model follows the inches.
+  - The oven rests on the floor of its cut-out: set Elevation to that floor. Size the cut-out
+    from the spec sheet. The product's Description field says the same.
+- The install guide no longer states a product count; README and MANIFEST carry it.
+
+## v1.3.3 — 2026-10-10
+
+- **Fulgor F6IRT485GS1 Rangetop 48:** the model now stands on the cabinet below it.
+  Its origin was at the counter line, 7" (179 mm) above the bottom of the unit. Setting
+  Elevation to the cabinet top therefore sank the body into the cabinet, leaving the
+  glass level with the cabinet top. Fulgor's side view shows this rangetop resting on
+  the cabinet or an open frame, so the origin is now the bottom of the unit. Set
+  Elevation to the top of the cabinet it sits on.
+- The new default Elevation is 729.05 mm (28 11/16"). That puts the counter line at a
+  standard 35 3/4" (908.05 mm) counter top, 7" above the cabinet, which is Fulgor's
+  cutout height. The glass stands 3/8" (8 mm) above the counter.
+- The size (1216 × 187 × 743.8) and the model's appearance are unchanged. Fulgor's
+  component is the same; only its position inside the file moved up 179 mm.
+- The product's Description says where to set Elevation.
+
 ## v1.3.2 — 2026-09-29
 
 A user measured the Miele dishwasher's face at 30 9/16"; Miele prints 30 3/16" (767 mm).

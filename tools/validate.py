@@ -5,7 +5,7 @@ Checks the format details Mozaik is strict about:
 - name triple-binding: ndx Node Name == .moz ProdName == filename base
 - every product node has a .moz and every .moz has a node
 - each .moz: Mozaik header, SourceLib == library folder name, UseSUModel's .skp exists,
-  stretch flags False, positive W/H/D, unique UniqueID
+  stretch flags False, positive W/H/D, unique UniqueID, empty Notes
 - no .LCK files committed
 Exits 1 on any failure.
 """
@@ -89,6 +89,9 @@ for moz in moz_files:
                 err(f"{moz.name}: {dim} not positive")
         except ValueError:
             err(f"{moz.name}: {dim} not a number")
+    if attrs.get("Notes"):
+        # Notes is the cabinet Notes tab: hidden in appliance editors, printed on labels
+        err(f"{moz.name}: Notes must be empty — put product text in ProductDesc (Description)")
     uid = attrs.get("UniqueID", "")
     if uid in uids:
         err(f"{moz.name}: UniqueID {uid} duplicates {uids[uid]}")

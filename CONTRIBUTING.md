@@ -7,7 +7,9 @@ Additions welcome. A product contribution is a pair of files plus one index line
 1. **`.moz` + `.skp` pair** in `Product Libraries/PM Fixtures and Appliances/Products/`,
    named identically (`Brand Model Description.moz` / `.skp`). The `.moz`'s `ProdName`
    must equal the filename base, `SourceLib` must be `PM Fixtures and Appliances`,
-   `UseSUModel="1"`, and `WStretch`/`HStretch`/`DStretch` all `False`.
+   `UseSUModel="1"`, and `WStretch`/`HStretch`/`DStretch` all `False`. Leave `Notes`
+   empty: it prints on cabinet labels and assembly sheets. Text about the product goes in
+   `ProductDesc`, the Description field at the top of the Product Editor.
 2. **Dimensions from the spec sheet.** `Width`/`Height`/`Depth` in the `.moz` are the
    manufacturer's published overall dimensions in millimeters — never estimated. For a
    manufacturer's own 3D model they are the wrapped model's measured envelope, which must
@@ -55,8 +57,8 @@ where polygon counts explode.
 ## Checks
 
 `python tools/validate.py` must pass; it runs automatically on every pull request. It checks
-the name bindings, stretch flags, node/file pairing, and file-format details that Mozaik is
-strict about.
+the name bindings, stretch flags, empty Notes, node/file pairing, and file-format details
+that Mozaik is strict about.
 A configuration variant of an existing product is named `<base product> (<variant>)` — for
 example `Miele DA 6891 Downdraft 36 (blower at back)` — and shares the base product's spec
 sheet; the validator accepts that.

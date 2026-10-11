@@ -1,6 +1,6 @@
 # Product Manifest
 
-43 products, 11 categories, 14 brands.
+44 products, 11 categories, 15 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
@@ -43,6 +43,7 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | GE Monogram ZTDX1FPSNSS Double Oven | Ovens | 755.65 × 1300.16 × 706.44 | authored from spec (SketchUp script) | ✓ |
 | Miele H 7580 BP Wall Oven 30 | Ovens | 757 × 727 × 688 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ |
 | Miele H 7640 BM Speed Oven 24 | Ovens | 595 × 455 × 620.3 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ |
+| Thermador PO302W Double Oven 30 | Ovens | 755.65 × 1322.39 × 688.98 | authored from spec (SketchUp script) | ✓ |
 | Wolf CSO24TE Steam Oven | Ovens | 597 × 454 × 582 | manufacturer model (subzero-wolf.com), used unmodified | ✓ (+ flush inset) |
 | Wolf CSO3050PE Steam Oven | Ovens | 758.6 × 446.9 × 605.4 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
 | Wolf SO3050PE Wall Oven | Ovens | 759 × 708 × 650 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
