@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.4.2 — 2026-10-11
+
+The seven ovens now use Mozaik's range appliance type instead of its cooktop type.
+
+- **Why:** Mozaik draws a cooktop-type appliance in its 3D views with the back 58.5 mm in
+  front of the wall, whatever the appliance's depth, even when the floor plan shows it against
+  the wall. Mozaik's own cooktop does the same. Range-type appliances (and Mozaik's own ranges)
+  sit against the wall in both views. The ovens had inherited the cooktop type from a template.
+- **Products:** Wolf CSO3050PE Steam Oven, Wolf SO3050PE Wall Oven, GE Monogram ZTDX1FPSNSS
+  Double Oven, Wolf CSO24TE Steam Oven, Miele H 7580 BP Wall Oven 30, Miele H 7640 BM Speed
+  Oven 24, Thermador PO302W Double Oven 30. Sizes, models and descriptions are unchanged.
+- **Ovens already placed in a job keep the cooktop type.** A placed appliance stores its own type,
+  and re-opening the job does not update it. Delete and re-place an oven to pick up the change.
+
 ## v1.4.1 — 2026-10-11
 
 - **Samsung RF70H30GER Refrigerator:** the product's Notes field is now empty. It held an
