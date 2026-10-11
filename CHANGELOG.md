@@ -26,6 +26,19 @@ The Ruvati RVH8555 Workstation Sink model is rebuilt to match Ruvati's dimension
 - **Already placed:** a sink already placed in a job shows the new model the next time the job
   opens; it does not need to be placed again.
 
+## v1.4.4 — 2026-10-11
+
+- **Bosch B36CL80ENS Refrigerator 36** gets a brushed-stainless image texture. Until now
+  it rendered white: Bosch's model has one plain-white material on every face. Only that
+  material changed; the geometry is identical to v1.3.2. The texture is our own, a
+  procedurally generated 512 px seamless tile mapped at 300 mm, so it is covered by this
+  library's licence. Bosch's own product photo shows horizontal grain, and the texture
+  runs the same way. Because the model uses one material, its sides, top and back also
+  show stainless.
+  Mozaik shows the texture in the product preview, in its 3D product viewer and in its
+  SketchUp 3D export of a room.
+  This is the first of a planned roll-out to the library's other stainless products.
+
 ## v1.4.3 — 2026-10-11
 
 The Fulgor rangetop and range now use Mozaik's range appliance type instead of its cooktop type.
