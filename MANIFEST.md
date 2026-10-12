@@ -67,5 +67,6 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Ruvati RVH8310 Pantry Sink | Sinks | 762 × 255.59 × 482.6 | authored from spec (SketchUp script) | ✓ |
 | Ruvati RVH8542ST Bar Sink | Sinks | 558.8 × 255.59 × 457.2 | authored from spec (SketchUp script) | ✓ |
 | Ruvati RVH8555 Workstation Sink | Sinks | 1447.8 × 252.41 × 482.6 | authored from spec (SketchUp script) | ✓ |
+| Ruvati RVH8555 Workstation Sink (drain left) | Sinks | 1447.8 × 252.41 × 482.6 | authored from spec (SketchUp script) — the RVH8555 turned end for end, drain at the left end | ✓ (shares the RVH8555 sheet) |
 | Ruvati RVQ6290 Outdoor Sink | Sinks | 742.95 × 342.9 × 508 | authored from spec (SketchUp script) | ✓ |
 | Kohler K-26071-LA Tub 60 | Tubs | 1524 × 539.75 × 812.8 | manufacturer model (kohler.com CAD) | ✓ |

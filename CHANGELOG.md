@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.4.6 — 2026-10-12
+
+One new sink configuration.
+
+- **Ruvati RVH8555 Workstation Sink (drain left)** (Sinks): the RVH8555 turned end for end, so its
+  drain is at the left end when you face the sink. Ruvati draws the sink with its drain at the right
+  end. The sink is the same along the front and the back, so turning it gives the left-hand drain
+  with the same ledges, slope and size. The model is the v1.4.5 model rotated half a turn about its
+  centre, not mirrored. It shares the RVH8555 spec sheet.
+  - Mozaik cannot mirror or turn a sink once it is placed, so a left-hand drain needs its own product.
+    Place this one instead of the RVH8555 when the drain must be at the left.
+  - Ask Ruvati whether your installation may be turned this way; its spec sheet does not say.
+  - Its Description field says the same and gives the anchor: set Elevation to the countertop
+    underside.
+
 ## v1.4.5 — 2026-10-11
 
 The Ruvati RVH8555 Workstation Sink model is rebuilt to match Ruvati's dimension drawing.
