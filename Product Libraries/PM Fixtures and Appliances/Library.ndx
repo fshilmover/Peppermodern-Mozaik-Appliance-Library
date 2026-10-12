@@ -56,4 +56,5 @@
   <Node Name="Ranges" ID="20" ParentID="0" IsFolder="True" Expanded="False" />
   <Node Name="Fulgor F6PGR304S2 Range 30" ID="141" ParentID="20" IsFolder="False" Expanded="False" />
   <Node Name="Thermador PO302W Double Oven 30" ID="143" ParentID="12" IsFolder="False" Expanded="False" />
+  <Node Name="Ruvati RVH8555 Workstation Sink (drain left)" ID="144" ParentID="10" IsFolder="False" Expanded="False" />
 </ProductLibrary>
