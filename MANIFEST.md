@@ -1,6 +1,6 @@
 # Product Manifest
 
-44 products, 11 categories, 15 brands.
+45 products, 11 categories, 15 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
