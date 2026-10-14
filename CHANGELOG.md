@@ -1,5 +1,48 @@
 # Changelog
 
+## v1.4.7 — 2026-10-13
+
+The Best HBC163ESS Ceiling Hood 63 is rebuilt as the recessed ceiling hood it is. It is also
+now Mozaik's hood type.
+
+- **What the old model got wrong:** it was two stacked boxes hanging 12-3/16" below the
+  ceiling. It read Best's 1-3/16" as the face's height; it is the face plate's lip past the
+  band, measured sideways. It also read 8-3/8" as part of a stack of heights; it is measured
+  from the face plate, and Best's drawing does not say what it reaches (most likely the duct
+  outlets' centre line, not the top of the housing).
+- **Face:** the stainless face plate is sheet metal and sits on the finished ceiling, so it is
+  drawn flat, at the ceiling line. It is 63-1/2" × 27-9/16". On it are the outer frame ring,
+  the dark perimeter-aspiration gap, the flat centre panel and the three LED light slots. Best
+  prints no sizes for these, so they are measured from Best's straight-on product photo,
+  within 1/4".
+- **Above the ceiling:**
+  - the band, 61-1/4" × 25-3/16" and 2-5/8" tall, which passes through the 61-3/4" × 25-3/4"
+    framed opening;
+  - the two adjustable support brackets, drawn at their 14" minimum (they adjust to 23-3/4").
+    Each is drawn only as a flat plane on its screw line, 35-9/16" apart, with its five screws
+    at 5-1/2", because Best prints no bracket member sizes;
+  - a see-through blue box between the brackets, from the band to the top of the brackets. It
+    is the space the framing must leave clear for the housing and the blower. **It is not
+    Best's housing size:** Best prints the housing's width (23-11/16") but not its height or
+    depth. Size framing and ducts from Best's spec sheet and installation guide.
+  - the two cable inputs. Best prints their heights and their distances from the housing's
+    centre line: 120 V 4-5/8" up and 8-3/16" off, the external-blower cable 8-1/16" up and
+    4-1/8" off. Best does not name the face; its side view puts them on one end of the
+    housing, drawn here on the left end, behind the centre line, with that end placed by the
+    printed 23-11/16" housing width. The hood can be installed turned end for end, which moves
+    them to the other end.
+- **Not drawn:** the 10" duct damper (its height is not printed) and the housing itself.
+- **Size:** Mozaik's height for the product becomes 355.6 mm (the 14" bracket minimum), from
+  309.56 mm. Width and depth are unchanged (1612.9 × 700.09 mm).
+- **Anchor:** the model's origin is the finished ceiling (or soffit) bottom face. Set
+  Elevation to that height. Nothing hangs below it except the sheet-metal face.
+- **Type:** the hood now uses Mozaik's hood type (SubType 25, like Mozaik's own metal hoods)
+  instead of the cooktop type, which Mozaik drew 58.5 mm further from the wall in 3D than the
+  floor plan showed.
+- **Already placed:** a placed appliance keeps the type and the size it was placed with.
+  Delete the hood and place it again, then set its Elevation to the finished ceiling.
+- Its Description field gives the anchor and says what the blue box is.
+
 ## v1.4.6 — 2026-10-12
 
 One new sink configuration.
