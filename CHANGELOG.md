@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.4.8 — 2026-10-24 (unreleased)
+
+The Kohler K-2882 Undermount Lav is drawn white. The K-2882 is vitreous china, and the model came in a metal finish.
+Every face now carries the material "Kohler White -0" (K-2882-0, White). Geometry, size and origin are unchanged.
+
 ## v1.4.7 — 2026-10-13
 
 The Best HBC163ESS Ceiling Hood 63 is rebuilt as the recessed ceiling hood it is. It is also
