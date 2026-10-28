@@ -1,6 +1,6 @@
 # Product Manifest
 
-47 products, 11 categories, 17 brands.
+48 products, 11 categories, 17 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
@@ -30,7 +30,7 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Samsung DW80CG4021SR Dishwasher | Dishwashers | 603.25 × 857.25 × 683 | authored from spec (SketchUp script) | ✓ |
 | Brizo 61363LF Beverage Faucet | Faucets | 88.9 × 246.68 × 162.33 | manufacturer model (brizo.com / BIMsmith) | ✓ |
 | Brizo 64063LF Kitchen Faucet | Faucets | 142.08 × 373.26 × 270.62 | manufacturer model (brizo.com / BIMsmith) | ✓ |
-| Brizo T65875LF Lav Faucet | Faucets | 327.02 × 226.51 × 77.68 | manufacturer model (brizo.com / BIMsmith) | ✓ |
+| Brizo T65875LF Lav Faucet | Faucets | 327.02 × 68.15 × 226.52 | manufacturer model (brizo.com / BIMsmith), turned to hang on the wall, lever handles only; origin at the valve centre line on the wall face | ✓ |
 | Pfister GT529-BIB Brislin | Faucets | 87.31 × 379.41 × 250.29 | authored from spec (SketchUp script) | ✓ |
 | Pfister GT72-TNTBG Tenet | Faucets | 119.06 × 304.8 × 180.66 | authored from spec (SketchUp script) | ✓ |
 | Pfister LG42-PFM0BG Pfirst Modern | Faucets | 42.86 × 144.46 × 163.51 | authored from spec (SketchUp script) | ✓ |
@@ -65,6 +65,7 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | AmeriSink AS1136 | Sinks | 394 × 138.2 × 450 | authored from spec (SketchUp script) | ✓ |
 | AmeriSink AS240A | Sinks | 495.3 × 146.05 × 355.6 | authored from spec (SketchUp script) | ✓ |
 | Kohler K-2882 Undermount Lav | Sinks | 503.31 × 172 × 396.51 | manufacturer model (kohler.com CAD) | ✓ |
+| Kohler K-8998 P-Trap | Sinks | 76.78 × 152.6 × 323.47 | manufacturer model (techcomm.kohler.com CAD, SketchUp), turned so the wall flange faces the back; origin at the arm centre line on the wall flange | ✓ |
 | Ruvati RVH8310 Pantry Sink | Sinks | 762 × 255.59 × 482.6 | authored from spec (SketchUp script) | ✓ |
 | Ruvati RVH8542ST Bar Sink | Sinks | 558.8 × 255.59 × 457.2 | authored from spec (SketchUp script) | ✓ |
 | Ruvati RVH8555 Workstation Sink | Sinks | 1447.8 × 252.41 × 482.6 | authored from spec (SketchUp script) | ✓ |
