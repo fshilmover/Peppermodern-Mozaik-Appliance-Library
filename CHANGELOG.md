@@ -1,5 +1,30 @@
 # Changelog
 
+## v1.4.10 — 2026-10-28
+
+One new product, a P-trap, and the Brizo wall faucet turned to hang on the wall. Both were first used on a
+bathroom vanity, and both match the library files in use at the shop since 2026-10-21.
+
+- **Kohler K-8998 P-Trap** (Sinks). This is Kohler's 1-1/4 in adjustable cast-brass P-trap with a tubing outlet. It
+  wraps Kohler's own SketchUp model from Kohler's technical site, turned half a turn so the wall flange faces
+  Mozaik's back and the inlet faces the front.
+  - **Size:** 76.78 × 152.6 × 323.47 mm, measured on the model.
+  - **Checked against the spec sheet:** the flange diameter (3 in), the flange face to the inlet centre (11-3/4 in)
+    and the inlet top to the trap bottom (4-3/8 in) each land within 0.05 in (1.3 mm) of Kohler's printed values.
+  - **Anchor:** the model's origin is the arm's centre line at the wall flange. Set Elevation to the drain stub's
+    centre height. The inlet's axis sits 1.511 in from the trap's left end and 0.970 in from its front.
+  - **Drawn as Kohler drew it:** the arm is straight and level. A real arm is cut to length, swivels at the J-bend
+    and falls toward the wall.
+- **Brizo T65875LF Lav Faucet** (Faucets). The faucet was drawn lying on its back, with the spout pointing up, and
+  the Odin cross handles drew over the lever handles. It is now turned to hang on the wall, and only the lever
+  handles (HL5875) are kept. No vendor geometry was edited; the cross-handle groups were left out whole.
+  - **Size:** 327.02 × 68.15 × 226.52 mm (was 327.02 × 226.51 × 77.68).
+  - **Anchor:** the model's origin is the valve centre line on the finished wall face. Set Elevation to the valve
+    centre height. The product type changes from a sink-class appliance to the faucet class (SubType 10 to 13),
+    its Elevation default from 908.05 to 0, and its Snap To setting from 3 to 0.
+  - **Faucets already placed in a job keep their old product type and Elevation.** Place the faucet again from
+    the library to get the wall-hung anchor.
+
 ## v1.4.9 — 2026-10-27
 
 Two new products, both first used on a laundry room: a utility sink and a pull-down faucet.

@@ -57,6 +57,7 @@
   <Node Name="Fulgor F6PGR304S2 Range 30" ID="141" ParentID="20" IsFolder="False" Expanded="False" />
   <Node Name="Thermador PO302W Double Oven 30" ID="143" ParentID="12" IsFolder="False" Expanded="False" />
   <Node Name="Ruvati RVH8555 Workstation Sink (drain left)" ID="144" ParentID="10" IsFolder="False" Expanded="False" />
+  <Node Name="Kohler K-8998 P-Trap" ID="145" ParentID="10" IsFolder="False" Expanded="False" />
   <Node Name="Sterling S995-0 Utility Sink" ID="146" ParentID="10" IsFolder="False" Expanded="False" />
   <Node Name="Signature SHXCRA102ZSS Faucet" ID="147" ParentID="16" IsFolder="False" Expanded="False" />
 </ProductLibrary>
