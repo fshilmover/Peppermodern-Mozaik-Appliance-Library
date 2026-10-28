@@ -1,6 +1,47 @@
 # Changelog
 
-## v1.4.8 — 2026-10-24 (unreleased)
+## v1.4.9 — 2026-10-27
+
+Two new products, both first used on a laundry room: a utility sink and a pull-down faucet.
+
+- **Sterling S995-0 Utility Sink** (Sinks). This is Sterling's Latitude 995, a 25" single-bowl
+  utility sink in white Vikrell. It wraps Sterling's own SketchUp model from Kohler's technical
+  site. Two changes were made to that model. It is turned a quarter turn, so the front faces
+  Mozaik's front and the faucet ledge sits at the back. The optional drain strainer is removed,
+  because Sterling does not ship one with this sink; that takes the model from 27,998 faces to
+  22,252, and the file is 3.8 MB.
+  - **Size:** 634.89 × 332.9 × 559.05 mm, measured on the model. Sterling prints 25" × 13" × 22".
+    The height is 2.7 mm over 13" because the drain boss under the bowl hangs below the foot ring
+    the sink stands on.
+  - **Checked against the spec sheet:** the faucet hole's position and diameter, the drain's
+    position and the rim-to-foot height each land within 1 mm of Sterling's printed values.
+  - **Anchor:** the model's origin is the top of the rim, for undermounting, as with the Kohler
+    K-2882. Set Elevation to the countertop underside. The sink can also be top-mounted; this
+    product is not anchored for that.
+  - **Not drawn:** the mounting clips, the countertop anchors and the two extra faucet-hole
+    locations, which are only marked on the sink. Size the countertop cut-out from Sterling's
+    installation guide, not from the model.
+- **Signature SHXCRA102ZSS Faucet** (Faucets). This is Signature Hardware's Ravenel single-hole
+  pull-down kitchen faucet in stainless (SKU 949685, code SHXCRA102). Signature Hardware
+  publishes no 3D model, so the faucet is built from its spec sheet.
+  - **Size:** 106.36 × 400.04 × 242.76 mm, from the printed 4-3/16" side to side, 15-3/4" tall
+    and 9-9/16" front to back.
+  - **Checked against the spec sheet:** the spout height, the spout reach, the base plate, the
+    tube diameter, the handle height and length and the 8° spray-head tilt match the printed
+    values. The valve body and the handle hub carry no printed sizes; they are measured off the
+    sheet's drawing and are good to about 3 mm.
+  - **Two printed sizes on the sheet disagree with the rest of it.** The 3-1/2" beside the spray
+    head does not fit the printed spout chain; the model follows the chain. The 3-15/16" to the
+    lever would push the lever past the printed overall width; the model follows the drawing.
+  - **Anchor:** the model's origin is the deck. Set Elevation to the countertop top surface. The
+    faucet's centre line is 25.4 mm from the model's left and back edges. The handle is on the
+    right as you face the faucet.
+  - **Clearance:** the lever swings 20° back. Signature asks for at least 1-15/16" (49 mm) from
+    the faucet's centre line to the backsplash; the model's back edge is only 25.4 mm behind it.
+- **Library index:** the two products take node IDs 146 and 147. ID 145 is left unused here; it
+  is taken in the maintainer's own copy of the library.
+
+## v1.4.8 — 2026-10-24
 
 The Kohler K-2882 Undermount Lav is drawn white. The K-2882 is vitreous china, and the model came in a metal finish.
 Every face now carries the material "Kohler White -0" (K-2882-0, White). Geometry, size and origin are unchanged.

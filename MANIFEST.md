@@ -1,6 +1,6 @@
 # Product Manifest
 
-45 products, 11 categories, 15 brands.
+47 products, 11 categories, 17 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
@@ -34,6 +34,7 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Pfister GT529-BIB Brislin | Faucets | 87.31 × 379.41 × 250.29 | authored from spec (SketchUp script) | ✓ |
 | Pfister GT72-TNTBG Tenet | Faucets | 119.06 × 304.8 × 180.66 | authored from spec (SketchUp script) | ✓ |
 | Pfister LG42-PFM0BG Pfirst Modern | Faucets | 42.86 × 144.46 × 163.51 | authored from spec (SketchUp script) | ✓ |
+| Signature SHXCRA102ZSS Faucet | Faucets | 106.36 × 400.04 × 242.76 | authored from spec (SketchUp script); Signature Hardware publishes no 3D model | ✓ |
 | Best HBC163ESS Ceiling Hood 63 | Hoods | 1612.9 × 355.6 × 700.09 | authored from spec (SketchUp script) | ✓ |
 | Miele DA 6891 Downdraft 36 | Hoods | 914 × 683.9 × 361.4 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ (+ flush mount) |
 | Miele DA 6891 Downdraft 36 (blower at back) | Hoods | 915 × 652 × 364 | authored from spec (SketchUp script) — Miele's rear-mount blower configuration | ✓ (shares the DA 6891 sheets) |
@@ -69,4 +70,5 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Ruvati RVH8555 Workstation Sink | Sinks | 1447.8 × 252.41 × 482.6 | authored from spec (SketchUp script) | ✓ |
 | Ruvati RVH8555 Workstation Sink (drain left) | Sinks | 1447.8 × 252.41 × 482.6 | authored from spec (SketchUp script) — the RVH8555 turned end for end, drain at the left end | ✓ (shares the RVH8555 sheet) |
 | Ruvati RVQ6290 Outdoor Sink | Sinks | 742.95 × 342.9 × 508 | authored from spec (SketchUp script) | ✓ |
+| Sterling S995-0 Utility Sink | Sinks | 634.89 × 332.9 × 559.05 | manufacturer model (techcomm.kohler.com CAD, SketchUp), optional drain strainer removed; origin at the rim top, for undermounting | ✓ |
 | Kohler K-26071-LA Tub 60 | Tubs | 1524 × 539.75 × 812.8 | manufacturer model (kohler.com CAD) | ✓ |
