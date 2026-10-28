@@ -60,4 +60,5 @@
   <Node Name="Kohler K-8998 P-Trap" ID="145" ParentID="10" IsFolder="False" Expanded="False" />
   <Node Name="Sterling S995-0 Utility Sink" ID="146" ParentID="10" IsFolder="False" Expanded="False" />
   <Node Name="Signature SHXCRA102ZSS Faucet" ID="147" ParentID="16" IsFolder="False" Expanded="False" />
+  <Node Name="Kohler K-9000 P-Trap" ID="148" ParentID="10" IsFolder="False" Expanded="False" />
 </ProductLibrary>
