@@ -1,5 +1,27 @@
 # Changelog
 
+## v1.4.11 — 2026-10-28
+
+One new product, a 1-1/2 in P-trap for laundry and utility sinks with a 1-1/2 in drain. The library's other trap,
+the K-8998, is 1-1/4 in and fits lavatory sinks only.
+
+- **Kohler K-9000 P-Trap** (Sinks). This is Kohler's 1-1/2 in adjustable cast-brass P-trap with a tubing outlet and a
+  slip-joint inlet, the 1-1/2 in sibling of the K-8998. It wraps Kohler's own SketchUp model from Kohler's technical
+  site. Kohler drew it with the wall flange facing Mozaik's back already, so the model is only shifted, not turned.
+  - **Size:** 76.2 × 170.61 × 273.05 mm, measured on the model.
+  - **Checked against the spec sheet:** the flange diameter (3 in), the outlet tube (1-1/2 in OD), the distance
+    between the two slip nuts (3 in) and the inlet top to the trap bottom (4-7/8 in) each land within 0.01 in
+    (0.3 mm) of Kohler's printed values.
+  - **Anchor:** the model's origin is the arm's centre line at the wall flange, as on the K-8998. Set Elevation to
+    the drain stub's centre height. The inlet's axis sits 1.500 in from the trap's left end and 1.000 in from its
+    front. The inlet's top is 0.335 in below the arm's centre line.
+  - **The arm is shorter than Kohler's sheet.** Kohler's sheets print 11-3/4 in from the flange to the inlet centre.
+    Kohler's model, in both its SketchUp and 3DS files, measures 9-3/4 in. The model is shipped as Kohler drew it,
+    with no vendor geometry edited. A real arm is cut to length on site, so place the trap by its inlet, under the
+    sink's drain, and let the flange land where it lands.
+  - **Drawn as Kohler drew it:** the arm is straight and level. A real arm swivels at the J-bend and falls toward the
+    wall.
+
 ## v1.4.10 — 2026-10-28
 
 One new product, a P-trap, and the Brizo wall faucet turned to hang on the wall. Both were first used on a

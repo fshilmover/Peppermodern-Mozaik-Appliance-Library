@@ -1,6 +1,6 @@
 # Product Manifest
 
-48 products, 11 categories, 17 brands.
+49 products, 11 categories, 17 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
@@ -66,6 +66,7 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | AmeriSink AS240A | Sinks | 495.3 × 146.05 × 355.6 | authored from spec (SketchUp script) | ✓ |
 | Kohler K-2882 Undermount Lav | Sinks | 503.31 × 172 × 396.51 | manufacturer model (kohler.com CAD) | ✓ |
 | Kohler K-8998 P-Trap | Sinks | 76.78 × 152.6 × 323.47 | manufacturer model (techcomm.kohler.com CAD, SketchUp), turned so the wall flange faces the back; origin at the arm centre line on the wall flange | ✓ |
+| Kohler K-9000 P-Trap | Sinks | 76.2 × 170.61 × 273.05 | manufacturer model (techcomm.kohler.com CAD, SketchUp), shifted only; origin at the arm centre line on the wall flange | ✓ |
 | Ruvati RVH8310 Pantry Sink | Sinks | 762 × 255.59 × 482.6 | authored from spec (SketchUp script) | ✓ |
 | Ruvati RVH8542ST Bar Sink | Sinks | 558.8 × 255.59 × 457.2 | authored from spec (SketchUp script) | ✓ |
 | Ruvati RVH8555 Workstation Sink | Sinks | 1447.8 × 252.41 × 482.6 | authored from spec (SketchUp script) | ✓ |
