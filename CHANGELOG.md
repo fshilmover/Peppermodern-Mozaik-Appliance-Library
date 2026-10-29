@@ -1,5 +1,65 @@
 # Changelog
 
+## v1.4.12 — 2026-10-28
+
+Six new products: five Bosch appliances and an Electrolux wine cooler, the library's first Electrolux. Each one's
+Description field (at the top of the Product Editor) says how to set its Elevation. Electrolux is the 18th brand.
+
+- **Bosch NITP660UC Induction Cooktop 36** (Cooktops + Rangetops). This is a 36 in frameless black-glass induction
+  cooktop. Bosch's CAD file for it shows a sibling with a stainless frame, so this model is built from Bosch's spec
+  sheet instead.
+  - **Size:** 940 × 86.94 × 540 mm. The glass is 940 × 540 mm and stands 5/16 in (7.94 mm) above the counter.
+  - **Anchor:** the model's origin is the countertop top. Its Elevation is preset to 908.05 mm, which assumes a
+    34-1/2 in box and a 1-1/4 in counter build-up, and it snaps to the countertop top when placed.
+  - **The body is not drawn.** Bosch does not print the size or position of the body under the glass. A
+    see-through box, centred under the glass, marks the zone to keep clear instead. It is the size of Bosch's
+    smallest allowed cut-out (883 × 505 mm) and 79 mm deep. Bosch prints the depth below the counter as 69 mm in
+    this model's installation guide and 79 mm on its family drawings; the deeper value is used. Size the cut-out
+    from the spec sheet.
+- **Bosch B30IB100SP Refrigerator 30** (Refrigeration). This is Bosch's Benchmark 30 in built-in, panel-ready
+  bottom-freezer refrigerator. The model is Bosch's own 3D file (an OBJ export; Bosch publishes no SketchUp
+  file for it), turned to Mozaik's axes and not scaled.
+  - **Size:** 756 × 2126.66 × 615.38 mm. It matches Bosch's printed width exactly, and the door's front-to-back
+    depth and the height to the bracket tops within 1 mm.
+  - **Panels and handles:** none are drawn. The panels and handles are the customer's own, and Bosch's drawings
+    show no handles, so the two handles in Bosch's file were left out. The doors sit one panel thickness (19 or
+    38 mm, per Bosch's installation guide) behind the cabinet face.
+  - **Hinges:** on the right, as shipped. In Bosch's file the hinges stand 7.76 mm and 3.19 mm proud of the door.
+- **Electrolux EI24WC15VS Wine Cooler 24** (Refrigeration). This is a 24 in under-counter wine cooler with a
+  stainless-framed glass door. Electrolux publishes no 3D model of it, so it is built from the spec sheet.
+  - **Size:** 604.84 × 865.19 × 654.05 mm, which is the printed 23-13/16 × 34-1/16 × 25-3/4 in, the depth
+    including the handle. The handle stands 2-1/8 in proud of the door.
+  - **Height:** drawn at the spec sheet's 34-1/16 in. The legs adjust; size the niche from the spec sheet.
+  - **Hinges:** on the right, as shipped. The door is reversible.
+- **Bosch HBLP651UC Double Oven 30** (Ovens). This is Bosch's Benchmark 30 in double wall oven. The model is
+  Bosch's own SketchUp file, moved only, not scaled.
+  - **Size:** 755 × 1323 × 676 mm, Bosch's printed 29-3/4 × 52-1/16 × 26-5/8 in (the depth includes the handles)
+    within 1 mm.
+  - **Anchor:** the model's origin is the bottom of the oven body, which rests on the floor of the cut-out. Set
+    Elevation to that floor. A 5 mm trim strip at the front hangs below it, over the cabinet face; for a flush
+    install, add 5 mm. With the body on the floor, the control panel overlaps the cabinet above the opening by
+    an amount inside Bosch's allowed 10 to 51 mm.
+  - **Recorded difference:** the model's body is 4 mm shorter than the current sheet's 49-3/4 in and matches
+    Bosch's 2016 sheet.
+  - It uses the range appliance type, like the library's other wall ovens, so it sits against the wall in 3D.
+- **Bosch HUI36253UC Hood Insert 36** (Hoods). This is a 36 in ventilation insert for a custom hood. The model is
+  Bosch's own SketchUp file, moved only, not scaled.
+  - **Size:** 841.95 × 329.66 × 269.93 mm. The side spring clips set the width.
+  - **Anchor:** the model's origin is the top of the trim flange. The flange is larger than the cut-out, so it
+    sits against the underside of the hood's bottom panel. Set Elevation to that underside.
+  - **Cut-out:** 812 × 260 mm, centred. The 6 in duct's centre is 83 mm in front of the cut-out's back edge. The
+    spec sheet prints a 6 in duct opening and the installation guide a 6-1/2 in hole; follow the installation
+    guide.
+  - **Recorded difference:** the model is 327 mm tall where the spec sheet prints 324 mm. Bosch's own parts add up
+    to 327 mm.
+- **Bosch SHV9PCM3N Dishwasher 24** (Dishwashers). This is Bosch's 24 in custom-panel dishwasher. Bosch's CAD
+  file is a coarse mesh that carries a sample panel and handle, so this model is built clean to Bosch's printed
+  sizes. The details Bosch does not print, such as the toe recess and the door gap, are measured on Bosch's file.
+  - **Size:** 598 × 860 × 585 mm. It is drawn at the lowest height, 860 mm; the feet raise it to 890 mm.
+  - **No panel or handle is drawn.** Add the custom panel, 19 to 22 mm thick, in front of the door.
+  - **Left out:** Bosch's file shows a raised cap on the top that no Bosch document shows. It is left out so that
+    the model fits Bosch's printed minimum opening of 860 mm.
+
 ## v1.4.11 — 2026-10-28
 
 One new product, a 1-1/2 in P-trap for laundry and utility sinks with a 1-1/2 in drain. The library's other trap,

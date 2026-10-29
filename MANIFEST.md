@@ -1,6 +1,6 @@
 # Product Manifest
 
-49 products, 11 categories, 17 brands.
+55 products, 11 categories, 18 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
@@ -25,7 +25,9 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 
 | Product | Category | W × H × D (mm) | Model source | Spec sheet |
 |---|---|---|---|---|
+| Bosch NITP660UC Induction Cooktop 36 | Cooktops + Rangetops | 940 × 86.94 × 540 | authored from spec (SketchUp script); origin at the countertop top; the see-through box under the glass is the cut-out keep-clear zone, not the body | ✓ |
 | Fulgor F6IRT485GS1 Rangetop 48 | Cooktops + Rangetops | 1216 × 187 × 743.8 | manufacturer model (vendor 3D files, repackaged) | ✓ |
+| Bosch SHV9PCM3N Dishwasher 24 | Dishwashers | 598 × 860 × 585 | authored from spec (SketchUp script), measured details from Bosch's CAD file; no panel or handle; drawn at the lowest height | ✓ |
 | Miele G 5006 U Dishwasher 24 | Dishwashers | 598 × 845 × 573 | manufacturer model (miele.ca CAD/BIM download, IFC); 10 mm under Miele's 855–920 installed range, size the niche from the spec sheet | ✓ (+ product sheet) |
 | Samsung DW80CG4021SR Dishwasher | Dishwashers | 603.25 × 857.25 × 683 | authored from spec (SketchUp script) | ✓ |
 | Brizo 61363LF Beverage Faucet | Faucets | 88.9 × 246.68 × 162.33 | manufacturer model (brizo.com / BIMsmith) | ✓ |
@@ -35,12 +37,14 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Pfister GT72-TNTBG Tenet | Faucets | 119.06 × 304.8 × 180.66 | authored from spec (SketchUp script) | ✓ |
 | Pfister LG42-PFM0BG Pfirst Modern | Faucets | 42.86 × 144.46 × 163.51 | authored from spec (SketchUp script) | ✓ |
 | Signature SHXCRA102ZSS Faucet | Faucets | 106.36 × 400.04 × 242.76 | authored from spec (SketchUp script); Signature Hardware publishes no 3D model | ✓ |
+| Bosch HUI36253UC Hood Insert 36 | Hoods | 841.95 × 329.66 × 269.93 | manufacturer model (bosch-home.com trade CAD, SketchUp); origin at the top of the trim flange (the hood's underside) | ✓ |
 | Best HBC163ESS Ceiling Hood 63 | Hoods | 1612.9 × 355.6 × 700.09 | authored from spec (SketchUp script) | ✓ |
 | Miele DA 6891 Downdraft 36 | Hoods | 914 × 683.9 × 361.4 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ (+ flush mount) |
 | Miele DA 6891 Downdraft 36 (blower at back) | Hoods | 915 × 652 × 364 | authored from spec (SketchUp script) — Miele's rear-mount blower configuration | ✓ (shares the DA 6891 sheets) |
 | Lynx L30AGSS Asado Cooktop | Outdoor Cooking | 762 × 342.9 × 708.02 | authored from spec (SketchUp script) | ✓ |
 | Lynx L36TR Grill 36 | Outdoor Cooking | 914.4 × 628.65 × 644.52 | authored from spec (SketchUp script) | ✓ |
 | Lynx LPB Power Burner | Outdoor Cooking | 508 × 282.58 × 658.81 | authored from spec (SketchUp script) | ✓ |
+| Bosch HBLP651UC Double Oven 30 | Ovens | 755 × 1323 × 676 | manufacturer model (bosch-home.com CAD file, SketchUp); origin at the chassis bottom (the cut-out floor), front trim strip 5 mm below | ✓ |
 | GE Monogram ZTDX1FPSNSS Double Oven | Ovens | 755.65 × 1300.16 × 706.44 | authored from spec (SketchUp script) | ✓ |
 | Miele H 7580 BP Wall Oven 30 | Ovens | 757 × 727 × 688 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ |
 | Miele H 7640 BM Speed Oven 24 | Ovens | 595 × 455 × 620.3 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ |
@@ -49,7 +53,9 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Wolf CSO3050PE Steam Oven | Ovens | 758.6 × 446.9 × 605.4 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
 | Wolf SO3050PE Wall Oven | Ovens | 759 × 708 × 650 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
 | Fulgor F6PGR304S2 Range 30 | Ranges | 758 × 923.89 × 753.68 | manufacturer model (fulgor-milano.com CAD files, SketchUp); shown with the 1" island trim | ✓ |
+| Bosch B30IB100SP Refrigerator 30 | Refrigeration | 756 × 2126.66 × 615.38 | manufacturer model (bosch-home.com CAD file, OBJ); panel-ready, no panels or handles | ✓ |
 | Bosch B36CL80ENS Refrigerator 36 | Refrigeration | 910.35 × 1821.65 × 704.61 | manufacturer model (bosch-home.com CAD file, SketchUp), stainless texture applied; size openings from the spec sheet (905 × 1830) | ✓ |
+| Electrolux EI24WC15VS Wine Cooler 24 | Refrigeration | 604.84 × 865.19 × 654.05 | authored from spec (SketchUp script) | ✓ |
 | Samsung RF70F27SER Refrigerator | Refrigeration | 908.05 × 1778 × 806.45 | authored from spec (SketchUp script) | ✓ |
 | Samsung RF70H30GER Refrigerator | Refrigeration | 911.225 × 1784.35 × 863.6 | authored from spec (SketchUp script) | ✓ |
 | SubZero DEC1850FIL Freezer 18 | Refrigeration | 457.2 × 2133.6 × 609.6 | authored from spec (SketchUp script) | ✓ |
