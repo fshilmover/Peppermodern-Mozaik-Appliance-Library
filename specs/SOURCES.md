@@ -2,7 +2,7 @@
 
 One row per PDF in this folder. Every file passed the verification gauntlet on
 2026-08-27 (Miele DA 6891 / H 7580 BP rows: 2026-09-17; Bosch, Fulgor range, Miele G 5006 U /
-H 7640 BM rows: 2026-09-28; Thermador PO302W row: 2026-10-11): real `%PDF` header and the exact model string found in the extracted
+H 7640 BM rows: 2026-09-28; Thermador PO302W row: 2026-10-11; Bosch B30IB100SP, HBLP651UC, HUI36253UC, NITP660UC, SHV9PCM3N and Electrolux EI24WC15VS rows: 2026-10-28): real `%PDF` header and the exact model string found in the extracted
 text — except the two Lynx CAD drawings (no text layer), which were verified
 visually and are byte-identical to the copies the shop already build-validated.
 "Shop archive" files were collected from Peppermodern's own job records, where
@@ -16,7 +16,12 @@ removed on request ([open an issue](../../../issues)).
 | AmeriSink AS1136.pdf | verified (model-exact) | shop archive; amerisink.com per-model spec PDF | matched 'AS1136' in extracted text |
 | AmeriSink AS240A.pdf | verified (model-exact) | shop archive; amerisink.com per-model spec PDF | matched 'AS240A' in extracted text |
 | Best HBC163ESS Ceiling Hood 63.pdf | verified (model-exact) | shop archive; Best official spec sheet (EN/FR) | matched 'HBC163ESS' in extracted text |
+| Bosch B30IB100SP Refrigerator 30.pdf | verified (model-exact) | https://media3.bsh-group.com/Documents/27192065_B30IB100SP_Spec_Sheet.pdf | Bosch spec sheet (9/25) "Benchmark 30" built-in refrigerator, custom panel"; installation sizes p. 2; matched 'B30IB100SP' in extracted text |
 | Bosch B36CL80ENS Refrigerator 36.pdf | verified (model-exact) | https://media3.bsh-group.com/Documents/MCDOC03224081_B36CL80ENS.pdf | Bosch spec sheet (9/26) "800 Series – Stainless Steel B36CL80ENS", recessed handles; installation details p. 2; matched 'B36CL80ENS' in extracted text |
+| Bosch HBLP651UC Double Oven 30.pdf | verified (model-exact) | https://media3.bsh-group.com/Documents/MCDOC01765199_HBLP651UC.pdf | Bosch spec sheet (9/26), Benchmark 30" double wall oven; matched 'HBLP651UC' in extracted text |
+| Bosch HUI36253UC Hood Insert 36.pdf | verified (model-exact) | https://media3.bsh-group.com/Documents/17931493_HUI36253UC_Spec_Sheet.pdf | Bosch spec sheet (9/26), 36" custom insert; cut-out p. 2; matched 'HUI36253UC' in extracted text |
+| Bosch NITP660UC Induction Cooktop 36.pdf | verified (model-exact) | https://media3.bsh-group.com/Documents/20011276_NITP660UC%20Spec%20Sheet.pdf | Bosch spec sheet (9/26), 36" induction cooktop, black frameless; cut-out p. 2; matched 'NITP660UC' in extracted text |
+| Bosch SHV9PCM3N Dishwasher 24.pdf | verified (model-exact) | https://media3.bsh-group.com/Documents/20634315_SHV9PCM3N%20Spec%20Sheet.pdf | Bosch spec sheet (9/26), 24" custom-panel dishwasher; matched 'SHV9PCM3N' in extracted text |
 | Brizo 61363LF Beverage Faucet.pdf | verified (model-exact) | media.brizo.com spec submittal | model string verified in file |
 | Brizo 64063LF Kitchen Faucet.pdf | verified (model-exact) | media.brizo.com spec submittal | model string verified in file |
 | Brizo 81392 Raincan 12.pdf | verified (model-exact) | media.brizo.com/SpecSheet/BSP-B-81392 Rev B.pdf | model string verified in file |
@@ -26,6 +31,7 @@ removed on request ([open an issue](../../../issues)).
 | Brizo 8GE-TSG15 Steam Generator.pdf | verified (model-exact) | media.brizo.com spec submittal | model string verified in file |
 | Brizo BSS-Odin Diverter Trim.pdf | verified (model-exact) | media.brizo.com spec submittal | sheet covers T60875 (Odin 3-function diverter trim — the model this product's geometry carries) |
 | Brizo T65875LF Lav Faucet.pdf | verified (model-exact) | Brizo-authored spec submittal (distributor asset host) | model string verified in file |
+| Electrolux EI24WC15VS Wine Cooler 24.pdf | verified (model-exact) | https://frigidaire.bynder.com/m/4e5653a47fd148f0/original/EI24WC15V_EN-pdf.pdf | Electrolux product specifications sheet (v08/22), 24" under-counter wine cooler; matched 'EI24WC15V' in extracted text (VS = stainless) |
 | Fulgor F6IRT485GS1 Rangetop 48.pdf | verified (model-exact) | shop archive; Fulgor Milano official data sheet | matched 'F6IRT485GS1' in extracted text |
 | Fulgor F6PGR304S2 Range 30.pdf | verified (model-exact) | https://www.fulgor-milano.com/sites/default/files/2021-06/F6PGR304S2%20-%20DS.pdf (retrieved from the Internet Archive copy, complete: 857,026 bytes = origin size) | Fulgor Milano data sheet (2021-06), Sofia 600 Series 30" all-gas pro range; dimension table and iso on p. 2; matched 'F6PGR304S2' in extracted text |
 | GE Monogram ZTDX1FPSNSS Double Oven.pdf | verified (model-exact) | shop archive; GE-authored spec PDF (retailer-hosted; GE/Monogram sites block direct fetch) | matched 'ZTDX1FPSNSS' in extracted text |

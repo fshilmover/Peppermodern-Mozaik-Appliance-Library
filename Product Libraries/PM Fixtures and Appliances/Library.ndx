@@ -61,4 +61,10 @@
   <Node Name="Sterling S995-0 Utility Sink" ID="146" ParentID="10" IsFolder="False" Expanded="False" />
   <Node Name="Signature SHXCRA102ZSS Faucet" ID="147" ParentID="16" IsFolder="False" Expanded="False" />
   <Node Name="Kohler K-9000 P-Trap" ID="148" ParentID="10" IsFolder="False" Expanded="False" />
+  <Node Name="Bosch NITP660UC Induction Cooktop 36" ID="149" ParentID="11" IsFolder="False" Expanded="False" />
+  <Node Name="Bosch B30IB100SP Refrigerator 30" ID="150" ParentID="13" IsFolder="False" Expanded="False" />
+  <Node Name="Electrolux EI24WC15VS Wine Cooler 24" ID="151" ParentID="13" IsFolder="False" Expanded="False" />
+  <Node Name="Bosch HBLP651UC Double Oven 30" ID="152" ParentID="12" IsFolder="False" Expanded="False" />
+  <Node Name="Bosch HUI36253UC Hood Insert 36" ID="153" ParentID="14" IsFolder="False" Expanded="False" />
+  <Node Name="Bosch SHV9PCM3N Dishwasher 24" ID="154" ParentID="19" IsFolder="False" Expanded="False" />
 </ProductLibrary>
