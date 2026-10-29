@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.4.13 — 2026-10-29
+
+- **Bosch HUI36253UC Hood Insert 36** (Hoods): the triangle mesh lines on the insert's steel shell are hidden.
+  Bosch's model is built from large triangles, and every triangle edge used to draw as a line across faces that
+  are flat on the real unit. Edges where two faces meet at 20 degrees or less are now softened, as SketchUp's
+  own Soften Edges command does. Softening only changes how edges draw: no point moved and no face was removed,
+  so the size (841.95 × 329.66 × 269.93 mm), the origin and the Elevation rule are unchanged. The model was
+  checked against the unit drawings on page 8 of Bosch's installation guide; the grey box is the insert's own
+  shell (part D there), not part of the wood hood around it.
+
 ## v1.4.12 — 2026-10-28
 
 Six new products: five Bosch appliances and an Electrolux wine cooler, the library's first Electrolux. Each one's
