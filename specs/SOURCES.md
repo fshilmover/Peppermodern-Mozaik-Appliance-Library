@@ -2,7 +2,7 @@
 
 One row per PDF in this folder. Every file passed the verification gauntlet on
 2026-08-27 (Miele DA 6891 / H 7580 BP rows: 2026-09-17; Bosch, Fulgor range, Miele G 5006 U /
-H 7640 BM rows: 2026-09-28; Thermador PO302W row: 2026-10-11; Bosch B30IB100SP, HBLP651UC, HUI36253UC, NITP660UC, SHV9PCM3N and Electrolux EI24WC15VS rows: 2026-10-28): real `%PDF` header and the exact model string found in the extracted
+H 7640 BM rows: 2026-09-28; Thermador PO302W row: 2026-10-11; Bosch B30IB100SP, HBLP651UC, HUI36253UC, NITP660UC, SHV9PCM3N and Electrolux EI24WC15VS rows: 2026-10-28; Wolf DO3050PE rows: 2026-10-31): real `%PDF` header and the exact model string found in the extracted
 text — except the two Lynx CAD drawings (no text layer), which were verified
 visually and are byte-identical to the copies the shop already build-validated.
 "Shop archive" files were collected from Peppermodern's own job records, where
@@ -68,5 +68,7 @@ removed on request ([open an issue](../../../issues)).
 | Wolf CSO24TE Steam Oven (flush inset).pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference (flush inset) | matched 'CSO24TE' in extracted text |
 | Wolf CSO3050PE Steam Oven.pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference (standard install) | matched 'CSO3050' in extracted text |
 | Wolf CSO3050PE Steam Oven (flush inset).pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference (flush inset) | matched 'CSO3050' in extracted text |
+| Wolf DO3050PE Double Oven 30.pdf | verified (model-exact) | https://delivery-p28264-e87620.adobeaemcloud.com/adobe/assets/urn:aaid:aem:55485c9a-5296-4f46-9b91-14b5ee5e2b02/renditions/original/as/do3050pe-quick-reference-guide-st.pdf | Wolf quick reference guide, standard installation (generated July 5, 2026), linked from the subzero-wolf.com trade specification page; matched 'DO3050PE' in extracted text |
+| Wolf DO3050PE Double Oven 30 (flush inset).pdf | verified (model-exact) | https://delivery-p28264-e87620.adobeaemcloud.com/adobe/assets/urn:aaid:aem:bf35085e-e89c-4df5-9b90-53ba3d7c61ba/renditions/original/as/do3050pe-quick-reference-guide-fi.pdf | Wolf quick reference guide, flush installation (generated July 5, 2026), same page; matched 'DO3050PE' in extracted text |
 | Wolf SO3050PE Wall Oven.pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference (standard install) | matched 'SO3050' in extracted text |
 | Wolf SO3050PE Wall Oven (flush inset).pdf | verified (model-exact) | shop archive; subzero-wolf.com quick reference (flush inset) | matched 'SO3050' in extracted text |
