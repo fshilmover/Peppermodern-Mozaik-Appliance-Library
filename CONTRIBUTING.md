@@ -14,13 +14,13 @@ Additions welcome. A product contribution is a pair of files plus one index line
    manufacturer's published overall dimensions in millimeters — never estimated. For a
    manufacturer's own 3D model they are the wrapped model's measured envelope, which must
    agree with the published numbers (Mozaik scales the model to the `.moz` values, so a
-   mismatch renders stretched). When the envelope differs from the published overall,
-   find the part that carries the difference: legs at another setting, a case wider
-   than its doors, trim. If the model's doors and faces match the sheet, ship it as drawn and
-   state the difference in the PR; openings come from the spec sheet. Scale a model
-   only to correct a uniform units or export error, never to hide a localized
-   difference: stretching moves the error onto the faces people measure. Say which spec
-   sheet (link it).
+   mismatch renders stretched). When a manufacturer's model misses ANY printed size,
+   compared at the sheet's millimetre values with no tolerance, rebuild the product from
+   the spec sheet by script instead of shipping the model: cabinets are built around these
+   numbers. The manufacturer's model may still lend the look of features the sheet does
+   not print (handle shape, window, display), named as taken from the model. Never stretch
+   a model to the printed size: stretching moves the error onto the faces people measure.
+   Scale only to correct a uniform units or export error. Say which spec sheet (link it).
 3. **A `<Node>` line** in the library's `Library.ndx` under the right category folder, with
    `Name` exactly equal to the product name and an unused `ID`. Preserve the file's format:
    first line `4`, CRLF line endings, no BOM.
@@ -38,9 +38,11 @@ Additions welcome. A product contribution is a pair of files plus one index line
 
 Measured across this library (SketchUp census, 2026-09-17): the script-built massing
 models run 6–150 faces and 12–55 KB; manufacturer models run 447–24,750 faces and
-126 KB–4.7 MB; every one loads in under a second. The heaviest shipped products (Wolf
-CSO3050PE at 24,750 faces / 4.7 MB, Fulgor rangetop at 19,713 / 3.8 MB) render fine in
-real jobs, so that is the proven ceiling — not a target. File size and detail are separate
+126 KB–4.7 MB; every one loads in under a second. The Wolf CSO3050PE's manufacturer model
+(24,750 faces / 4.7 MB, shipped until v1.4.16) and the Fulgor rangetop (19,713 / 3.8 MB)
+rendered fine in real jobs, so that is the proven ceiling — not a target. Re-measured on
+2026-10-31, the heaviest models now shipped are the Kohler K-9000 P-Trap (22,880 faces /
+4.2 MB), the Sterling S995-0 Utility Sink (22,252 / 3.8 MB) and the Fulgor rangetop. File size and detail are separate
 problems: the Brizo faucets are ~3 MB with only ~1,300 faces (embedded textures, not
 geometry).
 

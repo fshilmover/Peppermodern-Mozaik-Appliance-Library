@@ -4,12 +4,11 @@
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
-model's measured envelope, checked against every published overall dimension. A
-manufacturer's model can differ from its sheet by a few millimetres: legs at a different
-setting, or a case modelled wider than its doors. It then ships as drawn, so its doors
-and faces keep their true sizes; the difference is listed in the changelog, and openings
-are sized from the spec sheet. A model is scaled only to correct a uniform units or export
-error. Mozaik displays the dimensions in your job's units and scales the model to these
+model's measured envelope, checked against every published overall dimension. Since
+v1.4.16, a manufacturer's model that misses any printed size is rebuilt from the spec
+sheet instead (*authored from spec*). Products added earlier that still ship a
+manufacturer's model as drawn list their differences in the changelog; size openings from
+the spec sheet. A model is scaled only to correct a uniform units or export error. Mozaik displays the dimensions in your job's units and scales the model to these
 numbers.
 All products are fixed-size (`WStretch/HStretch/DStretch = False`) and carry a SketchUp
 model (`UseSUModel=1`).
@@ -49,11 +48,11 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Miele H 7580 BP Wall Oven 30 | Ovens | 757 × 727 × 688 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ |
 | Miele H 7640 BM Speed Oven 24 | Ovens | 595 × 455 × 620.3 | manufacturer model (mieleusa.com CAD/BIM download, IFC) | ✓ |
 | Thermador PO302W Double Oven 30 | Ovens | 755.65 × 1322.39 × 688.98 | authored from spec (SketchUp script) | ✓ |
-| Wolf CSO24TE Steam Oven | Ovens | 597 × 454 × 582 | manufacturer model (subzero-wolf.com), used unmodified | ✓ (+ flush inset) |
-| Wolf CSO3050PE Steam Oven | Ovens | 758.6 × 446.9 × 605.4 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
-| Wolf DO3050PE Double Oven 30 | Ovens | 759 × 1280 × 650 | manufacturer model (subzero-wolf.com); 12 mm under the printed 50 7/8 in height, size the opening from the spec sheet | ✓ (+ flush inset) |
+| Wolf CSO24TE Steam Oven | Ovens | 597 × 454 × 610 | authored from spec (SketchUp script); handle, window and display taken from Wolf's model | ✓ (+ flush inset) |
+| Wolf CSO3050PE Steam Oven | Ovens | 759 × 454 × 655 | authored from spec (SketchUp script); handle, window and display taken from Wolf's model | ✓ (+ flush inset) |
+| Wolf DO3050PE Double Oven 30 | Ovens | 759 × 1292 × 670 | authored from spec (SketchUp script); handles, windows and display taken from Wolf's model | ✓ (+ flush inset) |
 | Wolf MD30PE Microwave Drawer 30 | Ovens | 758.82 × 384.18 × 590.55 | authored from spec (SketchUp script); window and control strip scaled from Wolf's photo | ✓ (+ flush inset) |
-| Wolf SO3050PE Wall Oven | Ovens | 759 × 708 × 650 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
+| Wolf SO3050PE Wall Oven | Ovens | 759 × 724 × 670 | authored from spec (SketchUp script); handle, window and display taken from Wolf's model | ✓ (+ flush inset) |
 | Fulgor F6PGR304S2 Range 30 | Ranges | 758 × 923.89 × 753.68 | manufacturer model (fulgor-milano.com CAD files, SketchUp); shown with the 1" island trim | ✓ |
 | Bosch B30IB100SP Refrigerator 30 | Refrigeration | 756 × 2126.66 × 615.38 | manufacturer model (bosch-home.com CAD file, OBJ); panel-ready, no panels or handles | ✓ |
 | Bosch B36CL80ENS Refrigerator 36 | Refrigeration | 910.35 × 1821.65 × 704.61 | manufacturer model (bosch-home.com CAD file, SketchUp), stainless texture applied; size openings from the spec sheet (905 × 1830) | ✓ |
