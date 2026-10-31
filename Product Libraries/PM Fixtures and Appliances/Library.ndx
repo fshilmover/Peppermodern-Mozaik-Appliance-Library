@@ -68,4 +68,5 @@
   <Node Name="Bosch HUI36253UC Hood Insert 36" ID="153" ParentID="14" IsFolder="False" Expanded="False" />
   <Node Name="Bosch SHV9PCM3N Dishwasher 24" ID="154" ParentID="19" IsFolder="False" Expanded="False" />
   <Node Name="Wolf DO3050PE Double Oven 30" ID="155" ParentID="12" IsFolder="False" Expanded="False" />
+  <Node Name="Wolf MD30PE Microwave Drawer 30" ID="156" ParentID="12" IsFolder="False" Expanded="False" />
 </ProductLibrary>
