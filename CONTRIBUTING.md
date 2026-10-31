@@ -38,9 +38,11 @@ Additions welcome. A product contribution is a pair of files plus one index line
 
 Measured across this library (SketchUp census, 2026-09-17): the script-built massing
 models run 6–150 faces and 12–55 KB; manufacturer models run 447–24,750 faces and
-126 KB–4.7 MB; every one loads in under a second. The heaviest shipped products (Wolf
-CSO3050PE at 24,750 faces / 4.7 MB, Fulgor rangetop at 19,713 / 3.8 MB) render fine in
-real jobs, so that is the proven ceiling — not a target. File size and detail are separate
+126 KB–4.7 MB; every one loads in under a second. The Wolf CSO3050PE's manufacturer model
+(24,750 faces / 4.7 MB, shipped until v1.4.16) and the Fulgor rangetop (19,713 / 3.8 MB)
+rendered fine in real jobs, so that is the proven ceiling — not a target. Re-measured on
+2026-10-31, the heaviest models now shipped are the Kohler K-9000 P-Trap (22,880 faces /
+4.2 MB), the Sterling S995-0 Utility Sink (22,252 / 3.8 MB) and the Fulgor rangetop. File size and detail are separate
 problems: the Brizo faucets are ~3 MB with only ~1,300 faces (embedded textures, not
 geometry).
 

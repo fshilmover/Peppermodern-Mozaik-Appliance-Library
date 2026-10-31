@@ -40,7 +40,7 @@ note is in [specs/SOURCES.md](specs/SOURCES.md).
 4. Open Mozaik. The library appears in **Libraries → Products** as
    **PM Fixtures and Appliances**, with its category tree intact.
 5. Verify: place **Wolf CSO24TE Steam Oven** in a scratch job. It should face the room,
-   render as a steam oven (control band on top, tubular handle), and hold 597 × 454 × 582 mm —
+   render as a steam oven (control band on top, tubular handle), and hold 597 × 454 × 610 mm —
    the dimensions are locked and won't stretch.
 
 Installing the whole library is collision-proof: it never touches your existing libraries.
