@@ -10,7 +10,9 @@
     1 3/8 in front plus the 21 7/8 in body behind it. The body is 21 5/8 in wide and 14 5/8 in tall, centred
     behind the front, and fits Wolf's 22 1/8 × 14 3/4 × 22 in opening.
   - **Front:** the window, the control strip across the top and its display are scaled from Wolf's current
-    product photo against the printed front width, to within 1/4 in. The control strip is drawn closed, as one
+    product photo against the printed front width, to within 1/4 in. The front view on the bundled spec sheet is
+    older art that still shows a small window; the photo shows the drawer as Wolf sells it today, so the model
+    follows the photo for the front. The control strip is drawn closed, as one
     fixed band. Control legends, the WOLF badge, the mounting flange behind the front and the power cord channel
     are not drawn.
   - **Anchor:** the model's origin is the underside of the body, which rests on the opening floor. The front
