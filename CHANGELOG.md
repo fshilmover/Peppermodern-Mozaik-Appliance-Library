@@ -5,8 +5,12 @@
 - **Wolf DO3050PE Double Oven 30** (Ovens): Wolf's 30 in E Series Professional built-in double oven
   (DO3050PE/S/P), the double-oven sibling of the Wolf SO3050PE Wall Oven. The model is Wolf's own SketchUp file
   from its trade specification page, moved so its corner sits at the origin and otherwise unmodified.
-  - **Size:** 759 × 1280 × 650 mm, measured on Wolf's model. The width and the chassis height (49 3/8 in,
-    1254 mm) match Wolf's spec sheet exactly.
+  - **Size:** 759 × 1280 × 650 mm, measured on Wolf's model. The overall width and the chassis height
+    (49 3/8 in, 1254 mm) match Wolf's spec sheet exactly. The chassis behind the frame is drawn 718 mm wide,
+    where Wolf prints 28 1/2 in (724 mm).
+  - **Chassis top:** Wolf prints a step at the back of the chassis top, 2 in (51 mm) lower, 8 5/8 in (218 mm)
+    deep and 1 7/8 in (46 mm) in from each side. Wolf's model draws the chassis as a plain box with no step, so
+    the model is slightly larger than the oven there.
   - **Height:** Wolf prints the overall height as 50 7/8 in (1292 mm). Wolf's model, and the 3D DXF file Wolf
     publishes beside it, stand 1280 mm. The 12 mm is missing from the trim above the chassis, so the model ships
     as drawn: size the opening from the spec sheet.
