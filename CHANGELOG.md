@@ -1,5 +1,29 @@
 # Changelog
 
+## v1.4.14 — 2026-10-31
+
+- **Wolf DO3050PE Double Oven 30** (Ovens): Wolf's 30 in E Series Professional built-in double oven
+  (DO3050PE/S/P), the double-oven sibling of the Wolf SO3050PE Wall Oven. The model is Wolf's own SketchUp file
+  from its trade specification page, moved so its corner sits at the origin and otherwise unmodified.
+  - **Size:** 759 × 1280 × 650 mm, measured on Wolf's model. The overall width and the chassis height
+    (49 3/8 in, 1254 mm) match Wolf's spec sheet exactly. The chassis behind the frame is drawn 718 mm wide,
+    where Wolf prints 28 1/2 in (724 mm).
+  - **Chassis top:** Wolf prints a step at the back of the chassis top, 2 in (51 mm) lower, 8 5/8 in (218 mm)
+    deep and 1 7/8 in (46 mm) in from each side. Wolf's model draws the chassis as a plain box with no step, so
+    the model is slightly larger than the oven there.
+  - **Height:** Wolf prints the overall height as 50 7/8 in (1292 mm). Wolf's model, and the 3D DXF file Wolf
+    publishes beside it, stand 1280 mm. The 12 mm is missing from the trim above the chassis, so the model ships
+    as drawn: size the opening from the spec sheet.
+  - **Depth:** the door, frame and handle are drawn 69 mm deep in front of the chassis, where Wolf prints
+    3 3/8 in (86 mm). The chassis behind the frame is drawn 581 mm against the printed 23 in (584 mm). Shipped as
+    drawn.
+  - **Anchor:** the model's origin is the underside of the chassis, which is also the bottom of the front trim.
+    In a standard installation Wolf's trim does not overlap the cabinet below the opening, so the oven rests on
+    the opening floor. Set Elevation to that floor (Wolf's drawings show 17 in as typical). The Elevation preset
+    stays 0 and the product does not snap, the same as the SO3050PE. The Description field says so; for a flush
+    inset installation, use the flush inset spec sheet.
+  - Two spec sheets ship: the standard installation sheet and the flush inset sheet.
+
 ## v1.4.13 — 2026-10-29
 
 - **Bosch HUI36253UC Hood Insert 36** (Hoods): the triangle mesh lines on the insert's steel shell are hidden.
