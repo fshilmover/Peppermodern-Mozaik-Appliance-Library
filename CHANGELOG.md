@@ -1,5 +1,49 @@
 # Changelog
 
+## v1.4.16 — 2026-10-31
+
+Four Wolf ovens are rebuilt from Wolf's spec sheets. Wolf's own 3D models for these ovens miss the sizes Wolf
+prints, and a cabinet is built around the printed sizes. The library now follows one rule: when a manufacturer's
+model misses any printed size, compared at the sheet's millimetre values, the product is rebuilt from the sheet.
+Each rebuilt model matches every size the sheet prints, to the millimetre. Wolf's models still supply the look
+of the parts the sheets do not size: the handle's bar and posts, the window, the display and the seams between
+the door and the control band. Product names, IDs and library places are unchanged.
+
+- **Wolf SO3050PE Wall Oven** (Ovens): was 759 × 708 × 650 mm, now 759 × 724 × 670 mm.
+  - The sheet prints a 29 7/8 × 28 1/2 in front (759 × 724 mm), 7/8 in (22 mm) thick. The handle stands
+    3 3/8 in (86 mm) in front of the frame's back, and the body runs 23 in (584 mm) behind it.
+  - The body is 28 1/2 in (724 mm) wide and 27 in (686 mm) tall at the front. Its rear 8 5/8 in (218 mm) is
+    2 in (51 mm) lower, and a 1 3/8 in (36 mm) conduit channel at the back is 1 7/8 in (46 mm) narrower on each
+    side. All of these are now drawn.
+  - Wolf's model stood 708 mm tall, with a 28 mm front, a handle 69 mm from the frame's back and a smaller body.
+- **Wolf DO3050PE Double Oven 30** (Ovens): was 759 × 1280 × 650 mm, now 759 × 1292 × 670 mm.
+  - The sheet prints a 29 7/8 × 50 7/8 in front (759 × 1292 mm), 7/8 in (22 mm) thick. The handles stand
+    3 3/8 in (86 mm) in front of the frame's back, and the body is 28 1/2 in (724 mm) wide, 49 3/8 in (1254 mm)
+    tall and 23 in (584 mm) deep behind the frame.
+  - The rear step and the conduit channel are drawn as on the wall oven.
+  - Correction to v1.4.14: the 1 7/8 in (46 mm) inset on Wolf's top view belongs to the conduit channel, not to
+    the step. The step runs the full width of the body.
+- **Wolf CSO3050PE Steam Oven** (Ovens): was 758.6 × 446.9 × 605.4 mm, now 759 × 454 × 655 mm.
+  - The sheet prints a 29 7/8 × 17 7/8 in front (759 × 454 mm), 7/8 in (22 mm) thick. The handle stands
+    3 1/4 in (83 mm) in front of the frame's back. The body is 28 3/8 in (721 mm) wide, 17 1/2 in (446 mm) tall
+    and 22 1/2 in (572 mm) deep behind the frame.
+  - Wolf's model was 7 mm short, 50 mm shallow, and its body measured 703.5 × 402.7 mm.
+- **Wolf CSO24TE Steam Oven** (Ovens): was 597 × 454 × 582 mm, now 597 × 454 × 610 mm.
+  - The sheet prints a 23 1/2 × 17 7/8 in front (597 × 454 mm), 7/8 in (22 mm) thick. The handle stands
+    2 1/2 in (64 mm) in front of the frame's back. The body is 21 3/16 in (538 mm) wide, 17 1/2 in (446 mm) tall
+    and 21 1/2 in (546 mm) deep behind the frame.
+  - Wolf's model matched the front's width and height. Its body was drawn the full 597 mm width of the front,
+    424 mm tall and 517 mm deep behind the frame, and its front was 28 mm thick.
+- **Anchor, all four (unchanged):** the origin is the underside of the body, which is also the bottom of the
+  front trim. Wolf's trim does not overlap the cabinet below the opening, so the oven rests on the opening
+  floor. Set Elevation to that floor. The Elevation preset stays 0 and the product does not snap.
+- **Placed copies in jobs:** Mozaik copies a product's size when it is placed. A copy already placed in a job
+  keeps its old Width, Height and Depth, and Mozaik scales the new model into that old box. To get the printed
+  size, delete the oven from the job and place it again from the library.
+- Not drawn: control legends, the WOLF badge, the oven interiors, conduits and mounting screws. The handle
+  posts and the steam ovens' handle ends are drawn as square blocks.
+- Other configurations: request them through the library's request page.
+
 ## v1.4.15 — 2026-10-31
 
 - **Wolf MD30PE Microwave Drawer 30** (Ovens): Wolf's 30 in E Series Professional drawer microwave (MD30PE/S),

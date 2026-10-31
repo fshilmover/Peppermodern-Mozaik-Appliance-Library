@@ -14,13 +14,13 @@ Additions welcome. A product contribution is a pair of files plus one index line
    manufacturer's published overall dimensions in millimeters — never estimated. For a
    manufacturer's own 3D model they are the wrapped model's measured envelope, which must
    agree with the published numbers (Mozaik scales the model to the `.moz` values, so a
-   mismatch renders stretched). When the envelope differs from the published overall,
-   find the part that carries the difference: legs at another setting, a case wider
-   than its doors, trim. If the model's doors and faces match the sheet, ship it as drawn and
-   state the difference in the PR; openings come from the spec sheet. Scale a model
-   only to correct a uniform units or export error, never to hide a localized
-   difference: stretching moves the error onto the faces people measure. Say which spec
-   sheet (link it).
+   mismatch renders stretched). When a manufacturer's model misses ANY printed size,
+   compared at the sheet's millimetre values with no tolerance, rebuild the product from
+   the spec sheet by script instead of shipping the model: cabinets are built around these
+   numbers. The manufacturer's model may still lend the look of features the sheet does
+   not print (handle shape, window, display), named as taken from the model. Never stretch
+   a model to the printed size: stretching moves the error onto the faces people measure.
+   Scale only to correct a uniform units or export error. Say which spec sheet (link it).
 3. **A `<Node>` line** in the library's `Library.ndx` under the right category folder, with
    `Name` exactly equal to the product name and an unused `ID`. Preserve the file's format:
    first line `4`, CRLF line endings, no BOM.
