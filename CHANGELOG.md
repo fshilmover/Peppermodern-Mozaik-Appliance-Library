@@ -1,5 +1,24 @@
 # Changelog
 
+## v1.4.15 — 2026-10-31
+
+- **Wolf MD30PE Microwave Drawer 30** (Ovens): Wolf's 30 in E Series Professional drawer microwave (MD30PE/S),
+  stainless, with no handle. Wolf's only 3D file for this model shows its earlier design, with a tubular handle,
+  a small window and a body too wide for the printed opening. This model is therefore built from Wolf's current
+  spec sheet and installation guide instead.
+  - **Size:** 758.82 × 384.18 × 590.55 mm, from the printed 29 7/8 in front, 15 1/8 in front height, and the
+    1 3/8 in front plus the 21 7/8 in body behind it. The body is 21 5/8 in wide and 14 5/8 in tall, centred
+    behind the front, and fits Wolf's 22 1/8 × 14 3/4 × 22 in opening.
+  - **Front:** the window, the control strip across the top and its display are scaled from Wolf's current
+    product photo against the printed front width, to within 1/4 in. The control strip is drawn closed, as one
+    fixed band. Control legends, the WOLF badge, the mounting flange behind the front and the power cord channel
+    are not drawn.
+  - **Anchor:** the model's origin is the underside of the body, which rests on the opening floor. The front
+    hangs 1/16 in below it, over the cabinet rail, as Wolf's trim overlap table prints. Set Elevation to the
+    opening floor. The Elevation preset stays 0 and the product does not snap, the same as the Wolf ovens. The
+    Description field says so; size the opening from the spec sheet.
+  - Two spec sheets ship: the standard installation sheet and the flush inset sheet.
+
 ## v1.4.14 — 2026-10-31
 
 - **Wolf DO3050PE Double Oven 30** (Ovens): Wolf's 30 in E Series Professional built-in double oven

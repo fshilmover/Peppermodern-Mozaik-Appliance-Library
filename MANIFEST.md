@@ -1,6 +1,6 @@
 # Product Manifest
 
-56 products, 11 categories, 18 brands.
+57 products, 11 categories, 18 brands.
 
 Dimensions are the product Width × Height × Depth stored in the `.moz`, in millimeters,
 taken from the manufacturer's spec sheet — or, for a manufacturer's own 3D model, the
@@ -52,6 +52,7 @@ name; per-file sources and verification notes in [specs/SOURCES.md](specs/SOURCE
 | Wolf CSO24TE Steam Oven | Ovens | 597 × 454 × 582 | manufacturer model (subzero-wolf.com), used unmodified | ✓ (+ flush inset) |
 | Wolf CSO3050PE Steam Oven | Ovens | 758.6 × 446.9 × 605.4 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
 | Wolf DO3050PE Double Oven 30 | Ovens | 759 × 1280 × 650 | manufacturer model (subzero-wolf.com); 12 mm under the printed 50 7/8 in height, size the opening from the spec sheet | ✓ (+ flush inset) |
+| Wolf MD30PE Microwave Drawer 30 | Ovens | 758.82 × 384.18 × 590.55 | authored from spec (SketchUp script); window and control strip scaled from Wolf's photo | ✓ (+ flush inset) |
 | Wolf SO3050PE Wall Oven | Ovens | 759 × 708 × 650 | manufacturer model (subzero-wolf.com) | ✓ (+ flush inset) |
 | Fulgor F6PGR304S2 Range 30 | Ranges | 758 × 923.89 × 753.68 | manufacturer model (fulgor-milano.com CAD files, SketchUp); shown with the 1" island trim | ✓ |
 | Bosch B30IB100SP Refrigerator 30 | Refrigeration | 756 × 2126.66 × 615.38 | manufacturer model (bosch-home.com CAD file, OBJ); panel-ready, no panels or handles | ✓ |
